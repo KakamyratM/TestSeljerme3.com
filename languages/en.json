@@ -1,0 +1,265 @@
+{
+  "global": {
+    "brand": "<span class=\"black\">Test</span><span class=\"black\">Seljerme</span>",
+    "title": "TestSeljerme"
+  },
+  "nav": {
+    "features": "Features",
+    "how": "How it works",
+    "curriculum": "Curriculum",
+    "plans": "Plans"
+  },
+  "hero": {
+    "title": "Welcome to GelBileli",
+    "lead1": "Math can feel tricky sometimes. You study hard, but later forget some parts. We all do that—it's normal! Those small gaps can trip you up on tests or real problems.",
+    "lead2": "That's why I made Test Seljerme. It uses simple, friendly tests to find your weak spots fast. Get clear tips on what to practice, save time, and build confidence. Let's fix those gaps together and make math easier."
+  },
+  "features": {
+    "title": "Why choose?",
+    "adaptive": "Covers All School Topics",
+    "adaptiveDesc": "From basics to advanced, our tests include every main topic and subtopic you'll need for: school, university entrance exams, and more.",
+    "insights": "Deep Details",
+    "insightsDesc": "See your full score for the topic, plus a simple breakdown of subtopics. It shows what you're great at and what needs fixing, so you know exactly where to study.",
+    "guided": "Work on weaknesses",
+    "guidedDesc": "Use the results to work only on your weak spots. Then, come back and take the test again to see how much you've improved."
+  },
+  "how": {
+    "title": "How it works"
+  },
+  "steps": {
+    "1": {
+      "title": "Take an Initial Test",
+      "desc": "Select your topic and start the time-limited test, which includes a mix of difficulty levels."
+    },
+    "2": {
+      "title": "Know Your Mistakes",
+      "desc": "Receive immediate, detailed feedback identifying your exact strengths and weaknesses."
+    },
+    "3": {
+      "title": "Learn and Practice",
+      "desc": "Review your results to see your performance. Simple visual progress boxes show your status for each subtopic."
+    },
+    "4": {
+      "title": "Re-Test and Progress",
+      "desc": "Take a new test on the same topics/difficulty to track your improvement."
+    }
+  },
+  "cta": {
+    "start": "Start Your Test"
+  },
+  "curriculum": {
+    "showButton": "Explore Math Curriculum",
+    "title": "Our Complete Math Curriculum",
+    "intro": "Explore our topics from elementary foundations through advanced calculus."
+  },
+  
+  "subjects": {
+    "algebra1": {
+      "title": "Algebra I (Grades 9–10)",
+      "subtitle": "Essential building blocks of high school algebra.",
+      "topics": {
+        "expressions": "Expressions, Equations, Inequalities",
+        "linear": "Linear Equations & Functions",
+        "slope": "Slope, Intercepts, Graphing Lines",
+        "systems": "Systems of Equations: Substitution, Elimination",
+        "exponents": "Exponents & Exponential Functions",
+        "polynomials": "Polynomials: Operations & Factoring",
+        "quadratics": "Quadratic Equations: Factoring, Completing the Square, Quadratic Formula",
+        "rational": "Rational Expressions & Equations",
+        "radical": "Radical Expressions & Equations",
+        "absolute": "Absolute Value Equations & Inequalities",
+        "sequences": "Sequences: Arithmetic & Geometric (Intro)"
+      }
+    },
+
+    "preAlgebra1": {
+      "title": "Pre-Algebra: Basics (Grade 8)",
+      "subtitle": "Fundamental number concepts and operations.",
+      "topics": {
+        "placeValue": "Place Value",
+        "wholeNumbers": "Whole Numbers",
+        "decimals": "Decimals",
+        "fractions": "Fractions",
+        "integers": "Integers",
+        "ratiosRates": "Ratios & Rates",
+        "unitRates": "Unit Rates",
+        "proportions": "Proportions",
+        "percentages": "Percentages",
+        "powersExponents": "Powers and Exponents",
+        "squareRoots": "Square Roots",
+        "scientificNotation": "Scientific Notation",
+        "orderOperations": "Order of Operations",
+        "basicMeasurement": "Basic Measurement",
+        "basicGeometry": "Basic Geometry",
+        "dataGraphs": "Introduction to Data & Graphs",
+        "primeFactorsMultiples": "Prime Numbers, Factors, Multiples",
+        "gcfLcm": "GCF & LCM",
+        "simpleEquationsInequalities": "Simple Equations & Inequalities",
+        "coordinatePlane": "Coordinate Plane",
+        "probabilityStatistics": "Probability & Statistics"
+      }
+    },
+
+    "geometry": {
+      "title": "Geometry (Grades 9–10)",
+      "subtitle": "Shapes, spatial reasoning, and measurement.",
+      "topics": {
+        "logic": "Logic & Reasoning, Proofs",
+        "parallel": "Parallel & Perpendicular Lines",
+        "angles": "Angle Relationships",
+        "triangles": "Triangles: Congruence & Similarity",
+        "pythagorean": "Pythagorean Theorem & Distance Formula",
+        "quadrilaterals": "Quadrilaterals & Polygons",
+        "circles": "Circles: Arcs, Chords, Central & Inscribed Angles",
+        "perimeter": "Perimeter, Area, Volume, Surface Area",
+        "transformations": "Transformations: Translations, Rotations, Reflections, Dilations",
+        "coordinate": "Coordinate Geometry: Slope, Midpoint, Distance",
+        "trig": "Basic Trigonometry in Right Triangles"
+      }
+    },
+    "algebra2": {
+      "title": "Algebra II / Advanced Algebra (Grades 10–11)",
+      "subtitle": "Expanding algebraic concepts for higher math.",
+      "topics": {
+        "complex": "Complex Numbers: Operations, Polar Form",
+        "polynomials": "Quadratic, Cubic, Higher-Order Polynomials",
+        "rational": "Rational Expressions & Equations",
+        "radical": "Radical Expressions & Rational Exponents",
+        "exponential": "Exponential & Logarithmic Functions",
+        "sequences": "Sequences & Series: Arithmetic, Geometric, Sigma Notation",
+        "matrices": "Matrices & Determinants",
+        "probability": "Probability & Combinatorics: Permutations, Combinations, Binomial Theorem",
+        "conics": "Conic Sections: Parabolas, Ellipses, Hyperbolas, Circles",
+        "piecewise": "Piecewise Functions"
+      }
+    },
+    "precalc": {
+      "title": "Pre-Calculus: Trig & Functions",
+      "subtitle": "Foundational topics for advanced math study.",
+      "topics": {
+        "sohcahtoa": "Trigonometry: SOHCAHTOA, Unit Circle",
+        "trigFunctions": "Trig Functions: sin, cos, tan, csc, sec, cot",
+        "identities": "Trig Identities & Equations",
+        "graphs": "Graphs & Transformations of Trig Functions",
+        "functionNotation": "Function Notation, Domain, Range",
+        "inverse": "Inverse Functions",
+        "polynomial": "Polynomial, Rational, Exponential, Logarithmic, Piecewise, Step Functions",
+        "parametric": "Parametric Equations",
+        "vectors": "Vectors: Magnitude, Direction, Operations",
+        "coordinate": "Advanced Coordinate Geometry",
+        "conics": "Conic Sections in Detail"
+      }
+    },
+    "advanced": {
+      "title": "Advanced Topics: Calculus & Stats",
+      "subtitle": "University-level concepts and data analysis.",
+      "topics": {
+        "limits": "Limits & Continuity",
+        "derivatives": "Derivatives: Rules & Applications",
+        "integrals": "Integrals: Definite & Indefinite, Area Under Curve",
+        "theorem": "Fundamental Theorem of Calculus",
+        "differential": "Basic Differential Equations (Intro)",
+        "series": "Series: Arithmetic, Geometric, Infinite Series",
+        "data": "Data Analysis: Mean, Median, Mode, Standard Deviation",
+        "probability": "Probability: Independent & Dependent Events",
+        "binomial": "Binomial Distribution",
+        "normal": "Normal Distribution & Z-Scores",
+        "matrices": "Matrices & Linear Transformations"
+      }
+    }
+  },
+  "modal": {
+    "title": "Start Your Math Test",
+    "intro": "Enter your details and select a topic to begin your adaptive assessment.",
+    "firstNameLabel": "First Name",
+    "lastNameLabel": "Last Name",
+    "topicLabel": "Select Math Area",
+    "topicPlaceholder": "Choose a Topic Area...",
+    "preAlgebraGroup": "Pre-Algebra (Grade 8)",
+    "preAlgebra1": "Pre-Algebra: Basics",
+    "preAlgebra2": "Pre-Algebra: Numbers & Decimals",
+    "preAlgebra3": "Pre-Algebra: Rates & Ratios",
+    "algebra1Group": "Algebra I (Grades 9-10)",
+    "algebra1-1": "Algebra 1: Linear Equations",
+    "algebra1-2": "Algebra 1: Functions & Exponents",
+    "geometryGroup": "Geometry (Grades 9-10)",
+    "geometry-1": "Geometry: Shapes & Proofs",
+    "geometry-2": "Geometry: Measurement & Transformations",
+    "algebra2Group": "Algebra II / Advanced (Grades 10-11)",
+    "algebra2-1": "Algebra 2: Advanced Equations",
+    "algebra2-2": "Algebra 2: Logarithms & Complex Numbers",
+    "precalcGroup": "Pre-Calculus (Grades 11-12)",
+    "precalc-1": "Pre-Calculus: Functions & Limits",
+    "precalc-2": "Pre-Calculus: Trigonometry & Calculus Intro",
+    "startButton": "Start Test"
+  },
+  "footer": {
+    "copyright": "© TestSeljerme.com 2025",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "contact": "Contact"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "intro": "Have a question about math tests or need help? We're here—reply within 24 hours!",
+    "nameLabel": "Name",
+    "emailLabel": "Email",
+    "messageLabel": "Message",
+    "sendButton": "Send Message",
+    "directEmail": "Or email us directly:",
+    "phoneLabel": "Phone:",
+    "social": "Follow us on [social links, e.g., Twitter or Instagram]."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last Updated: October 04, 2025",
+    "intro": "At Test Seljerme, we respect your privacy. This policy explains how we collect, use, and protect your information when you use our math learning platform.",
+    "whatCollect": "What We Collect",
+    "personalInfo": "Personal Info: Name, email, and test responses (from sign-up forms).",
+    "usageData": "Usage Data: IP address, browser type, and pages visited (via cookies for better site experience).",
+    "howUse": "How We Use It",
+    "useDesc": "We use your data to create personalized tests, track progress, and send helpful updates. We don't sell or share it with third parties except for secure processors (e.g., email services).",
+    "security": "Security & Your Rights",
+    "securityDesc": "Your data is stored securely. You can access, update, or delete it anytime—email us at [your-email@example.com].",
+    "cookies": "Cookies",
+    "cookiesDesc": "We use cookies for analytics. You can manage them in your browser settings.",
+    "questions": "If you have questions, contact us at [your-email@example.com]."
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last Updated: October 04, 2025",
+    "intro": "By using Test Seljerme, you agree to these terms. If you don't, please don't use the site.",
+    "services": "Our Services",
+    "servicesDesc": "We provide free personalized math tests and learning tools. Content is for educational use only—no warranties on results.",
+    "rules": "User Rules",
+    "rule1": "Be honest in tests (no cheating).",
+    "rule2": "Don't copy or share our content without permission.",
+    "rule3": "You must be 13+ to use the site (or have parent consent).",
+    "rights": "Our Rights & Limits",
+    "rightsDesc": "We own all site content. We're not liable for any issues from using our tools. We can end access anytime for rule breaks.",
+    "changes": "Changes & Law",
+    "changesDesc": "We may update these terms—check back. Governed by [your country/state] laws.",
+    "questions": "Questions? Email [your-email@example.com]."
+  },
+  "results": {
+    "title": "Test Results - Test Seljerme",
+    "backButton": "← Back to Home",
+    "header": "Your Test Results",
+    "subtitle": "Great job completing the assessment! Here's how you did.",
+    "welcome": "Welcome back!",
+    "scoreDetails": "0 / 0 correct",
+    "scoreMessage": "Keep practicing to improve!",
+    "breakdownTitle": "Topic Breakdown",
+    "breakdownIntro": "See your performance across subtopics in",
+    "anotherTest": "Take Another Test"
+  },
+  "test": {
+    "title": "Adaptive Math Test",
+    "backButton": "← Back to Home",
+    "progressPrefix": "Question",
+    "hideTimer": "Hide timer",
+    "loading": "Loading question...",
+    "previous": "← Previous",
+    "next": "Next →"
+  }
+}

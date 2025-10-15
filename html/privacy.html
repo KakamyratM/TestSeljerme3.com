@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="privacy.title">Privacy Policy - TestSeljerme</title>
+    <link rel="stylesheet" href="../css/intro.css">
+    <link rel="stylesheet" href="../css/settings.css">
+    <link rel="stylesheet" href="../css/theme.css">
+    <style>
+        .legal-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            text-align: left;
+            line-height: 1.7;
+        }
+        .legal-content h1 {
+            font-size: 2rem;
+            color: #0b1220;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .legal-content h2 {
+            font-size: 1.5rem;
+            color: #0b1220;
+            margin: 30px 0 15px;
+            border-bottom: 2px solid #f0c040;
+            padding-bottom: 5px;
+        }
+        .legal-content ul {
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+        .legal-content li {
+            margin-bottom: 10px;
+        }
+        .last-updated {
+            color: #555;
+            font-style: italic;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header id="header">
+            <a class="brand" href="intro.html">
+                <div class="brand-name">
+                    <span class="black">Test</span>
+                    <span class="black">Seljerme</span>
+                </div>
+            </a>
+
+            <nav id="nav-bar" aria-label="Primary navigation">
+                <div class="language-selector">
+                    <button class="language-button nav-link" aria-label="Select Language">
+                        <span class="language-icon">🌐</span>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="#" class="language-option" data-lang="en">English</a>
+                        <a href="#" class="language-option" data-lang="ru">Русский</a>
+                        <a href="#" class="language-option" data-lang="tk">Türkmençe</a>
+                        <a href="#" class="language-option" data-lang="ko">한국어</a>
+                        <a href="#" class="language-option" data-lang="de">Deutsch</a>
+                        <a href="#" class="language-option" data-lang="tr">Türkçe</a>
+                    </div>
+                </div>
+                <div class="mode-dropdown">
+                    <button id="theme-toggle" class="nav-link" aria-label="Toggle theme mode" style="background: none; border: none; padding: 8px 12px; cursor: pointer;">
+                        <span id="current-theme-icon">🌙</span> <!-- Starts with night mode icon -->
+                    </button>
+                    <ul id="theme-menu" class="dropdown-menu" role="menu" aria-hidden="true"> <!-- Hidden by default -->
+                        <li role="menuitem">
+                            <a href="#" class="mode-option" data-theme="light" aria-label="Switch to Day Mode (Light Theme)">☀️</a>
+                        </li>
+                        <li role="menuitem">
+                            <a href="#" class="mode-option" data-theme="dark" aria-label="Switch to Night Mode (Dark Theme)">🌙</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <div class="legal-content">
+            <h1 data-i18n="privacy.title">Privacy Policy</h1>
+            <p class="last-updated" data-i18n="privacy.lastUpdated">Last Updated: October 04, 2025</p>
+            
+            <p data-i18n="privacy.intro">At TestSeljerme, we respect your privacy. This policy explains how we collect, use, and protect your information when you use our math learning platform.</p>
+            
+            <h2 data-i18n="privacy.whatCollect">What We Collect</h2>
+            <ul>
+                <li data-i18n="privacy.personalInfo"><strong>Personal Info:</strong> Name, email, and test responses (from sign-up forms).</li>
+                <li data-i18n="privacy.usageData"><strong>Usage Data:</strong> IP address, browser type, and pages visited (via cookies for better site experience).</li>
+            </ul>
+            
+            <h2 data-i18n="privacy.howUse">How We Use It</h2>
+            <p data-i18n="privacy.useDesc">We use your data to create personalized tests, track progress, and send helpful updates. We don't sell or share it with third parties except for secure processors (e.g., email services).</p>
+            
+            <h2 data-i18n="privacy.security">Security & Your Rights</h2>
+            <p data-i18n="privacy.securityDesc">Your data is stored securely. You can access, update, or delete it anytime—email us at [your-email@example.com].</p>
+            
+            <h2 data-i18n="privacy.cookies">Cookies</h2>
+            <p data-i18n="privacy.cookiesDesc">We use cookies for analytics. You can manage them in your browser settings.</p>
+            
+            <p data-i18n="privacy.questions">If you have questions, contact us at [your-email@example.com].</p>
+        </div>
+
+        <footer>
+            <div>
+                <div class="muted small" data-i18n="footer.copyright">© TestSeljerme.com 2025</div>
+            </div>
+
+            <div class="footer-links">
+                <a href="privacy.html" data-i18n="footer.privacy">Privacy</a>
+                <a href="terms.html" data-i18n="footer.terms">Terms</a>
+                <a href="contact.html" data-i18n="footer.contact">Contact</a>
+            </div>
+        </footer>
+    </div>
+    <script src="../js/i18n.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/darkmode.js"></script>
+</body>
+</html>

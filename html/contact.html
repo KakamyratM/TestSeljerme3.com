@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="contact.title">Contact Us - TestSeljerme</title>
+    <link rel="stylesheet" href="../css/intro.css">
+    <link rel="stylesheet" href="../css/theme.css">
+    <style>
+        .legal-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            text-align: center;
+            line-height: 1.7;
+        }
+        .legal-content h1 {
+            font-size: 2rem;
+            color: #0b1220;
+            margin-bottom: 20px;
+        }
+        .legal-content h2 {
+            font-size: 1.5rem;
+            color: #0b1220;
+            margin: 30px 0 15px;
+            border-bottom: 2px solid #f0c040;
+            padding-bottom: 5px;
+        }
+        .contact-form { 
+            max-width: 500px; 
+            margin: 20px auto; 
+            background: #f7f7f7; 
+            padding: 20px; 
+            border-radius: 8px; 
+        }
+        .input-group { 
+            margin-bottom: 15px; 
+            text-align: left; 
+        }
+        .input-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input, textarea { 
+            width: 100%; 
+            padding: 10px; 
+            border: 1px solid #ddd; 
+            border-radius: 5px; 
+        }
+        button { 
+            background: #f0c040; 
+            color: #0b1220; 
+            padding: 10px 20px; 
+            border: none; 
+            border-radius: 5px; 
+            cursor: pointer; 
+            font-weight: bold; 
+        }
+        button:hover {
+            background: #d4a017;
+        }
+        .contact-info {
+            margin-top: 30px;
+            padding: 20px;
+            background: #f0f0f0;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header id="header">
+            <a class="brand" href="intro.html">
+                <div class="brand-name">
+                    <span class="black">Test</span>
+                    <span class="black">Seljerme</span>
+                </div>
+            </a>
+
+            <nav id="nav-bar" aria-label="Primary navigation">
+                <div class="language-selector">
+                    <button class="language-button nav-link" aria-label="Select Language">
+                        <span class="language-icon">🌐</span>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="#" class="language-option" data-lang="en">English</a>
+                        <a href="#" class="language-option" data-lang="ru">Русский</a>
+                        <a href="#" class="language-option" data-lang="tk">Türkmençe</a>
+                        <a href="#" class="language-option" data-lang="ko">한국어</a>
+                        <a href="#" class="language-option" data-lang="de">Deutsch</a>
+                        <a href="#" class="language-option" data-lang="tr">Türkçe</a>
+                    </div>
+                </div>
+                <div class="mode-dropdown">
+                    <button id="theme-toggle" class="nav-link" aria-label="Toggle theme mode" style="background: none; border: none; padding: 8px 12px; cursor: pointer;">
+                        <span id="current-theme-icon">🌙</span> <!-- Starts with night mode icon -->
+                    </button>
+                    <ul id="theme-menu" class="dropdown-menu" role="menu" aria-hidden="true"> <!-- Hidden by default -->
+                        <li role="menuitem">
+                            <a href="#" class="mode-option" data-theme="light" aria-label="Switch to Day Mode (Light Theme)">☀️</a>
+                        </li>
+                        <li role="menuitem">
+                            <a href="#" class="mode-option" data-theme="dark" aria-label="Switch to Night Mode (Dark Theme)">🌙</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <div class="legal-content">
+            <h1 data-i18n="contact.title">Get in Touch</h1>
+            <p data-i18n="contact.intro">Have a question about math tests or need help? We're here—reply within 24 hours!</p>
+            
+            <div class="contact-form">
+                <form action="mailto:[your-email@example.com]" method="post" enctype="text/plain">
+                    <div class="input-group">
+                        <label for="name" data-i18n="contact.nameLabel">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="email" data-i18n="contact.emailLabel">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="message" data-i18n="contact.messageLabel">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" data-i18n="contact.sendButton">Send Message</button>
+                </form>
+            </div>
+            
+            <div class="contact-info">
+                <p data-i18n="contact.directEmail"><strong>Or email us directly:</strong> [your-email@example.com]<br>
+                <strong data-i18n="contact.phoneLabel">Phone:</strong> [your-phone, if any]</p>
+                
+                <p data-i18n="contact.social">Follow us on [social links, e.g., Twitter or Instagram].</p>
+            </div>
+        </div>
+
+        <footer>
+            <div>
+                <div class="muted small" data-i18n="footer.copyright">© TestSeljerme.com 2025</div>
+            </div>
+
+            <div class="footer-links">
+                <a href="privacy.html" data-i18n="footer.privacy">Privacy</a>
+                <a href="terms.html" data-i18n="footer.terms">Terms</a>
+                <a href="contact.html" data-i18n="footer.contact">Contact</a>
+            </div>
+        </footer>
+    </div>
+    <script src="../js/i18n.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/darkmode.js"></script>
+</body>
+</html>

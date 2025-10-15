@@ -1,0 +1,182 @@
+/* ------------------------------------------- */
+/* THEME VARIABLES AND STRUCTURE */
+/* ------------------------------------------- */
+
+/* Theme Variables - Light Mode Defaults (Unchanged) */
+:root {
+  --bg-primary: #f7f7f7;           /* Body background */
+  --bg-secondary: #ffffff;         /* Cards/sections */
+  --bg-tertiary: #f0f0f0;          /* Hero-aside, light elements, progress bg */
+  --text-primary: #0b1220;         /* Main text, headers */
+  --text-secondary: #555;          /* Muted/subtle text */
+  --text-light: #eeeeee;           /* Light text on dark bg */
+  --header-bg: #0b1220;            /* Header/footer bg - Solid color for light mode */
+  --step-bg: #1f2a38;              /* Step boxes, primary buttons */
+  --accent-gold: #f0c040;          /* CTAs, hovers, borders */
+  --accent-gold-dark: #c7a300;     /* Gold hover/darker variant */
+  --border-light: #ddd;            /* Subtle borders */
+  --border-dark: #333;             /* Dark borders */
+  --shadow-light: rgba(0, 0, 0, 0.1); /* Light shadows */
+  --shadow-dark: rgba(0, 0, 0, 0.2);  /* Darker shadows for contrast */
+  --radio-border: #999;            /* Radio button borders */
+  --pale-border: rgba(240, 246, 252, 0.1); /* Subtle pale edge for dark elements */
+}
+
+/* PROFESSIONAL Dark Mode - Subtle Half-Page Gradient Flow (RHN-Matched) */
+:root.dark {
+  --bg-primary: #0d1117;           /* Soft dark navy */
+  --bg-secondary: rgba(22, 27, 34, 0.95); /* Semi-transparent card bg for gradient peek */
+  --bg-tertiary: rgba(33, 38, 45, 0.9);   /* Muted tertiary with subtle transparency */
+  --text-primary: #e6edf3;         /* Soft off-white */
+  --text-secondary: #8b949e;       /* Neutral gray */
+  --text-light: #f0f6fc;           /* Light blue-white */
+  --header-bg: #0b0e12;            /* Exact deepest navy-black base (RHN left/top) */
+  --step-bg: rgba(62, 221, 84, 0.95); /* Deeper for buttons/steps with transparency */
+  --accent-gold: #d29922;          /* Muted professional gold */
+  --accent-gold-dark: #b08528;     /* Softer hover variant */
+  --border-light: rgba(48, 54, 61, 0.8); /* Neutral dark border with fade */
+  --border-dark: #484f58;          /* Slightly lighter for contrast */
+  --shadow-light: rgba(0, 0, 0, 0.15); /* Gentle shadows */
+  --shadow-dark: rgba(0, 0, 0, 0.25);  /* Subtle hover lift */
+  --radio-border: #6e7681;         /* Matching gray for radios */
+  --pale-border: rgba(240, 246, 252, 0.15); /* Subtle pale/white edge glow */
+
+  /* --- REFINED: HALF-PAGE HEADER GRADIENT (Gradual RHN Fade) --- */
+  /* Matches screenshot: Left/half darker navy (#0b0e12) gradually to right/half lighter slate (#1e222b), no abrupt change—smooth 0-50% stops for designer subtlety. */
+  /* Updated: Vertical (to bottom) version of the header gradient */
+/* Main fade now top-to-bottom (dark top, light bottom) with same 3-stop structure/colors; */
+/* Subtle horizontal overlay for depth, swapped from original for balance. */
+/* Updated: Combined Top-Bottom + Left-Right Gradient for Header */
+/* Layers vertical (top dark to bottom pale) + horizontal (left dark to right whiter) simultaneously; */
+/* Creates diagonal depth: Darkest top-left, gradually paler toward bottom-right—no lines, smooth progression. */
+/* Updated: Professional Radial (Circular) Gradient for Header */
+/* Centers dark at left-top (logo anchor) with elliptical fade to pale right/bottom; */
+/* Mimics linear flow but with soft circular depth—no harsh lines, elegant spotlight effect. */
+/* Shape: ellipse for wide horizontal spread; at 20% 50% for left bias. */
+  --body-gradient: 
+    linear-gradient(to right, var(--header-bg) 0%, #6e7681 90%, rgba(110, 118, 129, 0.95) 100%), 
+    linear-gradient(to bottom, rgba(11, 14, 18, 0.05) 0%, transparent 100%); /* Minimal vertical for calm progression */
+}
+
+/* Auto-detect system preference (Updated to use dark mode vars) */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-primary: #0d1117;
+    --bg-secondary: rgba(22, 27, 34, 0.95);
+    --bg-tertiary: rgba(33, 38, 45, 0.9);
+    --text-primary: #e6edf3;
+    --text-secondary: #8b949e;
+    --text-light: #f0f6fc;
+    --header-bg: #0b0e12;
+    --step-bg: rgba(33, 38, 45, 0.95);
+    --accent-gold: #d29922;
+    --accent-gold-dark: #b08528;
+    --border-light: rgba(48, 54, 61, 0.8);
+    --border-dark: #484f58;
+    --shadow-light: rgba(0, 0, 0, 0.15);
+    --shadow-dark: rgba(0, 0, 0, 0.25);
+    --radio-border: #6e7681;
+    --pale-border: rgba(240, 246, 252, 0.15);
+    --header-gradient: 
+      linear-gradient(to right, var(--header-bg) 0%, rgba(30, 34, 43, 0.9) 50%), 
+      linear-gradient(to bottom, rgba(11, 14, 18, 0.1) 0%, transparent 100%);
+    --body-gradient: 
+      linear-gradient(to right, var(--header-bg) 0%, #6e7681 50%, rgba(110, 118, 129, 0.95) 100%), 
+      linear-gradient(to bottom, rgba(11, 14, 18, 0.05) 0%, transparent 100%);
+  }
+}
+
+/* Smooth transitions for all themed elements */
+
+/* ------------------------------------------- */
+/* HEADER GRADIENT IMPLEMENTATION (Half-Page Polish) */
+/* ------------------------------------------- */
+header {
+    background-color: var(--header-bg); /* Use base color for light mode */
+}
+
+:root.dark header {
+    background-color: var(--header-bg); 
+    background-image: var(--header-gradient);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1px solid var(--pale-border); /* Subtle pale edge for visibility */
+}
+
+/* ------------------------------------------- */
+/* BODY GRADIENT IMPLEMENTATION (Full-Page Half-Dark/Half-Light Flow) */
+/* ------------------------------------------- */
+:root.dark body {
+    background-color: var(--header-bg); /* Base fallback */
+    background-image: var(--body-gradient);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /* Gentle parallax for pro depth */
+    min-height: 100vh;
+}
+
+/* ------------------------------------------- */
+/* ELEMENT VISIBILITY: Pale Borders & Subtle Overlays (For All Boxes/Cards) */
+/* ------------------------------------------- */
+/* Apply to all major containers/boxes for pale edge definition over half-page gradient */
+
+:root.dark .step-box,
+:root.dark .subject-card,
+:root.dark .curriculum-grid,
+:root.dark .topic-button,
+:root.dark .language-dropdown,
+:root.dark .modal-overlay .settings-container,
+:root.dark footer {
+    background-color: var(--bg-secondary); /* Semi-transparent for subtle gradient peek */
+    border: 1px solid var(--pale-border); /* Pale white line for crisp, visible edges */
+    box-shadow: 0 2px 8px var(--shadow-light), inset 0 1px 0 var(--pale-border); /* Inner glow for lift */
+    border-radius: 8px; /* Consistent rounding */
+}
+
+/* Ensure text/elements inside remain sharp */
+:root.dark .hero,
+:root.dark #how,
+:root.dark #curriculum {
+    background: transparent; /* Let half-page gradient shine through, with child boxes bordered */
+    position: relative;
+    z-index: 1;
+}
+
+/* Fine-tune for specific elements */
+:root.dark .dot {
+    background-color: var(--accent-gold);
+    border: 1px solid var(--pale-border);
+}
+
+:root.dark .topic-list {
+    border: 1px solid var(--pale-border);
+    border-radius: 4px;
+    padding: 4px;
+}
+
+/* ------------------------------------------- */
+/* TOGGLE BUTTON STYLES (Unchanged) */
+/* ------------------------------------------- */
+#theme-toggle {
+  background: none;
+  border: none;
+  color: var(--text-light);
+  font-size: 1.1rem;
+  cursor: pointer;
+
+  border-radius: 4px;
+  padding: 8px 12px;
+}
+
+#theme-toggle:hover {
+  color: var(--accent-gold);
+  background-color: rgba(210, 153, 34, 0.1);
+}
+
+:root.dark #theme-toggle {
+  color: var(--text-primary);
+}
+
+:root.dark #theme-toggle:hover {
+  background-color: rgba(210, 153, 34, 0.15);
+}

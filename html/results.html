@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="test.title">Adaptive Math Test</title>
+    <link rel="stylesheet" href="../css/intro.css">
+    <link rel="stylesheet" href="../css/result.css">
+    <link rel="stylesheet" href="../css/theme.css">
+</head>
+<body style="padding-top: 70px; padding-bottom: 30px; overflow-y: hidden;">
+    <div class="container">
+        <header id="header">
+            <a class="brand" href="intro.html">
+                <div class="brand-name">
+                    <span class="black">Test</span>
+                    <span class="black">Seljerme</span>
+                </div>
+            </a>
+            <nav id="nav-bar" aria-label="Primary navigation">
+                <div class="language-selector">
+                    <button class="language-button nav-link" aria-label="Select Language">
+                        <span class="language-icon">🌐</span>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="#" class="language-option" data-lang="en">English</a>
+                        <a href="#" class="language-option" data-lang="ru">Русский</a>
+                        <a href="#" class="language-option" data-lang="tk">Türkmençe</a>
+                        <a href="#" class="language-option" data-lang="ko">한국어</a>
+                        <a href="#" class="language-option" data-lang="de">Deutsch</a>
+                        <a href="#" class="language-option" data-lang="tr">Türkçe</a>
+                    </div>
+                </div>
+                <div class="mode-dropdown">
+                    <button id="theme-toggle" class="nav-link" aria-label="Toggle theme mode" style="background: none; border: none; padding: 8px 12px; cursor: pointer;">
+                        <span id="current-theme-icon">🌙</span>
+                    </button>
+                    <ul id="theme-menu" class="dropdown-menu" role="menu" aria-hidden="true">
+                        <li role="menuitem">
+                            <a href="#" class="mode-option" data-theme="light" aria-label="Switch to Day Mode (Light Theme)">☀️</a>
+                        </li>
+                        <li role="menuitem">
+                            <a href="#" class="mode-option" data-theme="dark" aria-label="Switch to Night Mode (Dark Theme)">🌙</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <div class="central-content">
+            <section class="user-info">
+                <h2 id="userFullName" data-i18n="results.welcome">Welcome back!</h2>
+            </section>
+            <section class="overall-score">
+                <div class="score-circle">
+                    <span id="overallPercentage" class="percentage">0%</span>
+                </div>
+                <p class="score-details" id="scoreDetails" data-i18n="results.scoreDetails">0 / 0 correct</p>
+                <p class="score-message" id="scoreMessage" data-i18n="results.scoreMessage">Keep practicing to improve!</p>
+            </section>
+            <a href="intro.html" class="cta-button standalone" data-i18n="results.anotherTest">Start Over</a>
+            <section class="subtopics-section">
+                <h2 data-i18n="results.breakdownTitle">Topic Breakdown</h2>
+                <p class="breakdown-intro" data-i18n="results.breakdownIntro">See your performance across subtopics in <span id="selectedTopic">Your Topic</span>.</p>
+                <div class="subtopics-list" id="subtopicsList">
+                    <!-- Subtopics will be dynamically populated here -->
+                </div>
+            </section>
+        </div>
+
+        <footer class="results-footer">
+            <div>
+                <div class="muted small" data-i18n="footer.copyright">© TestSeljerme.com 2025</div>
+            </div>
+            <div class="footer-links">
+                <a href="privacy.html" data-i18n="footer.privacy">Privacy</a>
+                <a href="terms.html" data-i18n="footer.terms">Terms</a>
+                <a href="contact.html" data-i18n="footer.contact">Contact</a>
+            </div>
+        </footer>
+    </div>
+<script src="../js/i18n.js"></script>
+    <script src="../js/translations.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../data/Pre-Algebra1.js"></script>
+    <script src="../data/Pre-Algebra2.js"></script>
+    <script src="../data/Pre-Algebra3.js"></script>
+    <script src="../data/Algebra1.js"></script>
+    <script src="../data/Algebra1.2.js"></script>
+    <script src="../data/Algebra2.js"></script>
+    <script src="../data/Algebra2.2.js"></script>
+    <script src="../data/Geometry.js"></script>
+    <script src="../data/Geometry2.js"></script>
+    <script src="../data/PreCalculus1.js"></script>
+    <script src="../data/PreCalculus2.js"></script>
+    <script src="../js/result.js"></script>
+    <script src="../js/darkmode.js"></script>
+    
+</body>
+</html>

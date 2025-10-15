@@ -1,0 +1,236 @@
+{
+    "global": {
+        "title": "GelBileli",
+        "brand": "GelBileli",
+        "tagline": "개인화된 수학 테스트 및 학습"
+    },
+    "nav": {
+        "features": "기능",
+        "how": "작동 방식",
+        "curriculum": "커리큘럼",
+        "plans": "플랜"
+    },
+    "hero": {
+        "title": "GelBileli에 오신 것을 환영합니다",
+        "lead1": "수학은 때때로 까다로울 수 있습니다. 열심히 공부하지만 나중에 일부를 잊어버리죠. 우리 모두 그래요—정상입니다! 그 작은 공백들이 테스트나 실제 문제에서 당신을 걸려서 넘어지게 할 수 있어요.",
+        "lead2": "그래서 GelBileli를 만들었어요. 간단하고 친근한 테스트를 사용해 약점을 빠르게 찾습니다. 연습할 내용을 명확한 팁으로 얻고, 시간을 절약하며 자신감을 쌓으세요. 함께 그 공백을 메우고 수학을 더 쉽게 만들어요."
+    },
+    "features": {
+        "title": "GelBileli를 선택하는 이유는?",
+        "adaptive": "적응형 테스트",
+        "adaptiveDesc": "각 테스트가 기술 수준에 맞춰 조정되어 정확한 평가를 제공합니다.",
+        "insights": "인사이트 및 분석",
+        "insightsDesc": "당신이 탁월한 영역과 개선이 필요한 영역을 정확히 알 수 있습니다.",
+        "guided": "지도형 학습",
+        "guidedDesc": "결과에 기반한 추천 연습을 따르세요."
+    },
+    "how": {
+        "title": "작동 방식"
+    },
+    "steps": {
+        "1": {
+            "title": "초기 테스트 수행",
+            "desc": "주제와 난이도를 선택해 기술의 기준 평가를 받으세요."
+        },
+        "2": {
+            "title": "실수 파악",
+            "desc": "강점과 약점을 정확히 식별하는 즉각적이고 상세한 피드백을 받으세요."
+        },
+        "3": {
+            "title": "학습 및 연습",
+            "desc": "약한 영역을 타겟으로 추천 비디오를 시청하고 맞춤 연습을 완료하세요."
+        },
+        "4": {
+            "title": "재테스트 및 진행",
+            "desc": "동일 주제/난이도의 새 테스트를 통해 개선을 추적하세요."
+        }
+    },
+    "cta": {
+        "start": "무료 테스트를 지금 시작하세요!"
+    },
+    "curriculum": {
+        "showButton": "수학 커리큘럼 탐색",
+        "title": "완전한 GelBileli 커리큘럼",
+        "intro": "초등 기초부터 고급 미적분까지 주제를 탐색하세요. 연습 질문을 시작하려면 주제를 클릭하세요!"
+    },
+    "subjects": {
+        "algebra1": {
+            "title": "대수 I (9–10학년)",
+            "subtitle": "고등학교 대수의 필수 구성 요소.",
+            "topics": {
+                "expressions": "표현식, 방정식, 부등식",
+                "linear": "선형 방정식 및 함수",
+                "slope": "기울기, 절편, 직선 그래프",
+                "systems": "방정식 시스템: 대체, 제거",
+                "exponents": "지수 및 지수 함수",
+                "polynomials": "다항식: 연산 및 인수분해",
+                "quadratics": "이차 방정식: 인수분해, 완전제곱, 이차 공식",
+                "rational": "유리 표현식 및 방정식",
+                "radical": "근 표현식 및 방정식",
+                "absolute": "절댓값 방정식 및 부등식",
+                "sequences": "수열: 산술 및 기하 (소개)"
+            }
+        },
+        "geometry": {
+            "title": "기하학 (9–10학년)",
+            "subtitle": "도형, 공간 추론 및 측정.",
+            "topics": {
+                "logic": "논리 및 추론, 증명",
+                "parallel": "평행 및 수직선",
+                "angles": "각 관계",
+                "triangles": "삼각형: 합동 및 유사",
+                "pythagorean": "피타고라스 정리 및 거리 공식",
+                "quadrilaterals": "사각형 및 다각형",
+                "circles": "원: 호, 현, 중심 및 내접각",
+                "perimeter": "둘레, 면적, 부피, 표면적",
+                "transformations": "변환: 이동, 회전, 반사, 팽창",
+                "coordinate": "좌표 기하: 기울기, 중점, 거리",
+                "trig": "직각삼각형의 기본 삼각법"
+            }
+        },
+        "algebra2": {
+            "title": "대수 II / 고급 대수 (10–11학년)",
+            "subtitle": "고등 수학을 위한 대수 개념 확장.",
+            "topics": {
+                "complex": "복소수: 연산, 극형태",
+                "polynomials": "이차, 삼차, 고차 다항식",
+                "rational": "유리 표현식 및 방정식",
+                "radical": "근 표현식 및 유리 지수",
+                "exponential": "지수 및 로그 함수",
+                "sequences": "수열 및 급수: 산술, 기하, 시그마 표기법",
+                "matrices": "행렬 및 행렬식",
+                "probability": "확률 및 조합론: 순열, 조합, 이항 정리",
+                "conics": "원뿔곡선: 포물선, 타원, 쌍곡선, 원",
+                "piecewise": "조각 함수"
+            }
+        },
+        "precalc": {
+            "title": "미적분 전: 삼각법 및 함수",
+            "subtitle": "고급 수학 연구를 위한 기초 주제.",
+            "topics": {
+                "sohcahtoa": "삼각법: SOHCAHTOA, 단위원",
+                "trigFunctions": "삼각 함수: sin, cos, tan, csc, sec, cot",
+                "identities": "삼각 항등식 및 방정식",
+                "graphs": "삼각 함수의 그래프 및 변환",
+                "functionNotation": "함수 표기법, 정의역, 치역",
+                "inverse": "역함수",
+                "polynomial": "다항, 유리, 지수, 로그, 조각, 계단 함수",
+                "parametric": "모수 방정식",
+                "vectors": "벡터: 크기, 방향, 연산",
+                "coordinate": "고급 좌표 기하",
+                "conics": "원뿔곡선 상세"
+            }
+        },
+        "advanced": {
+            "title": "고급 주제: 미적분 및 통계",
+            "subtitle": "대학 수준 개념 및 데이터 분석.",
+            "topics": {
+                "limits": "극한 및 연속성",
+                "derivatives": "미분: 규칙 및 응용",
+                "integrals": "적분: 정적분 및 부정적분, 곡선 아래 면적",
+                "theorem": "미적분의 기본 정리",
+                "differential": "기본 미분방정식 (소개)",
+                "series": "급수: 산술, 기하, 무한 급수",
+                "data": "데이터 분석: 평균, 중앙값, 최빈값, 표준편차",
+                "probability": "확률: 독립 및 종속 사건",
+                "binomial": "이항 분포",
+                "normal": "정규 분포 및 Z-점수",
+                "matrices": "행렬 및 선형 변환"
+            }
+        }
+    },
+    "modal": {
+        "title": "수학 테스트 시작",
+        "intro": "세부 정보 입력 및 주제 선택하여 적응형 평가를 시작하세요.",
+        "firstNameLabel": "이름",
+        "lastNameLabel": "성",
+        "topicLabel": "수학 영역 선택",
+        "topicPlaceholder": "주제 영역 선택...",
+        "preAlgebraGroup": "미대수 (8학년)",
+        "preAlgebra1": "미대수: 기초",
+        "preAlgebra2": "미대수: 숫자 및 소수",
+        "preAlgebra3": "미대수: 속도 및 비율",
+        "algebra1Group": "대수 I (9-10학년)",
+        "algebra1-1": "대수 1: 선형 방정식",
+        "algebra1-2": "대수 1: 함수 및 지수",
+        "geometryGroup": "기하학 (9-10학년)",
+        "geometry-1": "기하학: 도형 및 증명",
+        "geometry-2": "기하학: 측정 및 변환",
+        "algebra2Group": "대수 II / 고급 (10-11학년)",
+        "algebra2-1": "대수 2: 고급 방정식",
+        "algebra2-2": "대수 2: 로그 및 복소수",
+        "precalcGroup": "미적분 전 (11-12학년)",
+        "precalc-1": "미적분 전: 함수 및 극한",
+        "precalc-2": "미적분 전: 삼각법 및 미적분 소개",
+        "startButton": "테스트 시작"
+    },
+    "footer": {
+        "copyright": "© 2025 GelBileli • 모든 권리 보유",
+        "privacy": "개인정보 보호",
+        "terms": "이용 약관",
+        "contact": "연락처"
+    },
+    "contact": {
+        "title": "연락하기",
+        "intro": "수학 테스트에 대한 질문이 있거나 도움이 필요하신가요? 우리는 여기 있어요—24시간 내 답변!",
+        "nameLabel": "이름",
+        "emailLabel": "이메일",
+        "messageLabel": "메시지",
+        "sendButton": "메시지 보내기",
+        "directEmail": "직접 이메일 보내기:",
+        "phoneLabel": "전화:",
+        "social": "[소셜 링크, 예: Twitter 또는 Instagram]에서 우리를 팔로우하세요."
+    },
+    "privacy": {
+        "title": "개인정보 보호정책",
+        "lastUpdated": "마지막 업데이트: 2025년 10월 04일",
+        "intro": "GelBileli에서 우리는 당신의 프라이버시를 존중합니다. 이 정책은 수학 학습 플랫폼을 사용할 때 정보를 수집, 사용, 보호하는 방법을 설명합니다.",
+        "whatCollect": "수집하는 것",
+        "personalInfo": "개인 정보: 이름, 이메일 및 테스트 응답 (가입 양식에서).",
+        "usageData": "사용 데이터: IP 주소, 브라우저 유형 및 방문 페이지 (더 나은 사이트 경험을 위한 쿠키).",
+        "howUse": "사용 방법",
+        "useDesc": "개인화된 테스트 생성, 진행 추적 및 유용한 업데이트 보내기에 데이터 사용. 제3자와 판매/공유하지 않으며, 안전한 프로세서(예: 이메일 서비스) 제외.",
+        "security": "보안 및 권리",
+        "securityDesc": "데이터는 안전하게 저장됩니다. 언제든지 접근, 업데이트 또는 삭제 가능—[your-email@example.com]으로 이메일.",
+        "cookies": "쿠키",
+        "cookiesDesc": "분석을 위한 쿠키 사용. 브라우저 설정에서 관리 가능.",
+        "questions": "질문이 있으시면 [your-email@example.com]으로 연락하세요."
+    },
+    "terms": {
+        "title": "서비스 약관",
+        "lastUpdated": "마지막 업데이트: 2025년 10월 04일",
+        "intro": "GelBileli를 사용함으로써 이 약관에 동의합니다. 동의하지 않으면 사이트를 사용하지 마세요.",
+        "services": "우리 서비스",
+        "servicesDesc": "무료 개인화 수학 테스트 및 학습 도구 제공. 교육 용도로만 사용—결과 보증 없음.",
+        "rules": "사용자 규칙",
+        "rule1": "테스트에서 솔직하게 (치팅 금지).",
+        "rule2": "허가 없이 내용 복사/공유 금지.",
+        "rule3": "13세 이상이어야 함 (부모 동의 필요).",
+        "rights": "우리 권리 및 제한",
+        "rightsDesc": "사이트 콘텐츠 소유. 도구 사용 문제에 책임 없음. 규칙 위반 시 접근 종료 가능.",
+        "changes": "변경 및 법률",
+        "changesDesc": "약관 업데이트 가능—확인하세요. [국가/주] 법률 적용.",
+        "questions": "질문? [your-email@example.com]으로 이메일."
+    },
+    "results": {
+        "title": "테스트 결과 - GelBileli",
+        "backButton": "← 홈으로 돌아가기",
+        "header": "테스트 결과",
+        "subtitle": "평가 완료 축하합니다! 당신의 성과는 다음과 같습니다.",
+        "welcome": "다시 오신 것을 환영합니다!",
+        "scoreDetails": "0 / 0 정답",
+        "scoreMessage": "개선 위해 연습 계속하세요!",
+        "breakdownTitle": "주제 분석",
+        "breakdownIntro": "선택 주제의 하위 주제별 성과를 확인하세요.",
+        "anotherTest": "또 다른 테스트"
+    },
+    "test": {
+        "title": "적응형 수학 테스트",
+        "backButton": "← 홈으로 돌아가기",
+        "progressPrefix": "질문",
+        "hideTimer": "타이머 숨기기",
+        "loading": "질문 로딩 중...",
+        "previous": "← 이전",
+        "next": "다음 →"
+    }
+}

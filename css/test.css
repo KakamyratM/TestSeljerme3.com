@@ -1,0 +1,561 @@
+/* ===================================================== */
+/* TEST PAGE STYLES - HARMONIZED WITH INTRO PAGE         */
+/* ===================================================== */
+
+/* Color Palette (Harmonized with Intro):
+   Primary Dark: #0b1220 (Navy - Matches intro header/step boxes)
+   Accent: #f0c040 (Muted Gold - Matches nav hover/subtitle border)
+   Background Light: #f7f7f7 (Light Gray - Matches intro body)
+   Secondary Dark: #1f2a38 (Deeper Navy - For steps/buttons if needed)
+   Soft Pillar: #f0f0f0 (Light Gray - Matches hero-aside for non-tiring subtlety)
+*/
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif; /* Matches intro font */
+    background-color: var(--bg-primary); /* Matches intro body bg */
+    color: var(--text-primary); /* Matches intro text color */
+    line-height: 1.6; /* Matches intro */
+    padding-top: 70px; /* Space for fixed header */
+    padding-bottom: 70px; /* Space for footer */
+    overflow-y: scroll; /* Allows scrolling */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Page Wrapper for Layout Control */
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Background Pillar (Subtle, Non-Tiring Gray for Long Sessions) */
+body::before {
+    content: '';
+    position: fixed;
+    top: 9.5vh; /* Adjusted for header */
+    bottom: 9.55vh; /* Adjusted for footer */
+    width: 35%;
+    height: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--bg-tertiary); /* Matches intro hero-aside */
+    border: 1px solid var(--text-primary); /* Matches intro dark */
+    border-radius: 18px;
+    box-shadow: 0 10px 30px var(--shadow-light); /* Softer shadow */
+    z-index: 1; /* Behind content */
+}
+
+/* Test Container - Central, Consistent Width */
+.test-container {
+    width: 95%;
+    max-width: 600px; /* Professional, centered width - not too wide for focus */
+    position: relative;
+    z-index: 10; /* Above pillar */
+    background: transparent; /* Transparent to let pillar show through subtly */
+}
+
+/* Back Button - Above Central Box */
+.back-button {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--text-primary); /* Matches intro dark */
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: 10px;
+    padding: 28px 15px;
+    border-radius: 8px;
+    transition: background-color 0.2s;
+    align-self: flex-start;
+}
+
+.back-button:hover {
+    background-color: var(--bg-secondary); /* Matches intro hover tones */
+}
+
+/* Test Header (Progress/Timer/Toggle) - Fixed Size Bar */
+.test-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    padding: 15px; /* Slightly increased for touch */
+    background: var(--bg-secondary); /* Matches intro cards */
+    border-radius: 12px; /* Matches intro rounded */
+    margin-bottom: 20px;
+    margin-left: 0 auto;
+    flex-wrap: wrap;
+    width: 100%;
+    min-width: 450px;
+    max-width: 450px; /* Consistent with question card */
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px var(--shadow-light); /* Subtle shadow like intro */
+    border: 1px solid var(--border-light); /* Subtle border */
+}
+
+.timer {
+    font-size: 1.2rem; /* Balanced size */
+    font-weight: 500;
+    color: var(--text-secondary); /* Matches intro muted */
+    padding: 8px 12px;
+    background: var(--bg-tertiary); /* Matches intro light */
+    border-radius: 6px;
+    min-width: 70px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.progress-tracker {
+    flex: 1;
+    text-align: left;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.progress-tracker span {
+    font-weight: 700;
+    color: var(--text-primary); /* Bold for numbers */
+}
+
+.hide-timer-toggle {
+    font-size: 0.9rem;
+    white-space: nowrap;
+    color: var(--text-secondary); /* Matches intro muted */
+    cursor: pointer;
+}
+
+.hide-timer-toggle input {
+    margin-right: 5px;
+}
+
+/* Question Card - Fixed Height, Scrollable Content */
+.question-card {
+    background-color: var(--bg-secondary); /* Matches intro cards */
+    padding: 40px; /* Balanced padding */
+    border-radius: 18px; /* Matches intro rounded */
+    box-shadow: 0 10px 30px var(--shadow-light); /* Softer for long sessions */
+    width: 100%;
+    min-width: 450px;
+    max-width: 450px;
+    min-height: 60vh; /* Minimum for short questions */
+    max-height: 60vh; /* Cap for very long questions */
+    overflow-y: auto; /* Scroll inside if content overflows */
+    border: 1px solid var(--border-light); /* Subtle border like intro */
+}
+
+/* Question Area - Top of Card */
+.question-area {
+    flex-shrink: 0; /* Don't shrink */
+    margin-bottom: 25px;
+}
+
+.question-area h3 {
+    font-size: 1.3rem; /* Readable size */
+    font-weight: 500;
+    color: var(--text-primary); /* Matches intro */
+    line-height: 1.5;
+    word-wrap: break-word; /* Handles long questions */
+}
+
+/* Options - Scrollable Middle Section */
+.options {
+    flex: 1; /* Grow to fill space */
+    overflow-y: auto; /* Scroll if options long */
+    margin-bottom: 25px;
+    padding-right: 5px; /* Space for scrollbar */
+}
+
+.options label {
+    display: flex;
+    align-items: flex-start; /* Align top for long text */
+    padding: 15px; /* Comfortable touch area */
+    margin: 12px 0;
+    font-size: 1rem;
+    color: var(--text-primary); /* Matches intro */
+    border: 1px solid var(--border-light); /* Softer border */
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    min-height: 20px; /* Minimum height for consistency */
+}
+
+.options label:hover {
+    border-color: var(--accent-gold); /* Matches intro gold */
+}
+
+.options input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    margin-right: 15px;
+    margin-top: 2px; /* Align with text top */
+    border: 2px solid var(--border-light);
+    border-radius: 50%;
+    transition: all 0.2s;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.options input[type="radio"]:checked {
+    background-color: var(--text-primary);
+    border-color: var(--text-primary);
+}
+
+.options input[type="radio"]:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(240, 192, 64, 0.2); /* Gold focus ring */
+}
+
+.options span {
+    flex: 1;
+    margin-left: 0; /* Reset */
+    word-wrap: break-word; /* Handles long option text */
+}
+
+/* Buttons - Fixed at Bottom of Card */
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border-light); /* Matches intro */
+    flex-shrink: 0; /* Fixed at bottom */
+    margin-top: auto; /* Push to bottom */
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 8px var(--shadow-light); /* Matches intro */
+    flex: 1;
+    min-height: 45px; /* Consistent touch target */
+}
+
+.primary-btn {
+    background-color: var(--accent-gold);
+    color: var(--text-primary);
+}
+
+.primary-btn:hover {
+    background-color: var(--accent-gold-dark);
+    transform: translateY(-1px);
+}
+
+.secondary-btn {
+    background-color: var(--bg-tertiary);
+    color: var(--text-primary);
+}
+
+.secondary-btn:hover:not(:disabled) {
+    background-color: var(--bg-secondary);
+    transform: translateY(-1px);
+}
+
+button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+/* Footer - Matches Intro Exactly (Full Width, Sticky at Bottom) */
+footer {
+    background-color: var(--header-bg);
+    color: var(--text-light);
+    padding: 30px 20px;
+    position: fixed;
+    bottom: 1px;
+    justify-content: space-between;
+    gap: 20px;
+    right: 380px;
+    left: 380px;
+    margin-top: auto; /* Pushes to bottom in flex body */
+    flex-shrink: 0; /* Prevents shrinking */
+    box-sizing: border-box; /* Includes padding in layout */
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+footer a {
+    color: var(--text-light);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .muted {
+    color: #ddd;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Ensure progress tracker is visible */
+.progress-tracker {
+    display: flex !important; /* Use flex to align items if needed */
+    visibility: visible !important;
+    opacity: 1 !important;
+    position: relative !important; /* Prevent absolute positioning issues */
+    z-index: 10 !important; /* Ensure it’s above other elements */
+    margin: 0 !important; /* Remove any unexpected margins */
+    padding: 5px !important; /* Add padding for clarity */
+    background-color: #f0f0f0 !important; /* Light background for contrast */
+    color: #000000 !important; /* Black text for visibility */
+}
+
+/* Ensure spans are visible and styled */
+.progress-tracker span {
+    font-weight: 700 !important; /* Keep bold as per your design */
+    font-size: 16px !important; /* Ensure readable size */
+    color: #000000 !important; /* Black text */
+    margin: 0 5px !important; /* Space between numbers */
+    display: inline-block !important; /* Ensure inline display */
+}
+
+/* Prevent timer or other elements from overlapping */
+.test-header {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding: 10px !important;
+    position: relative !important;
+    overflow: visible !important;
+}
+
+/* Mobile Responsiveness (Existing for 900px) */
+@media (max-width: 900px) {
+    .test-header {
+        padding: 12px;
+        gap: 10px;
+    }
+
+    .timer {
+        font-size: 1rem;
+        min-width: 60px;
+    }
+
+    .question-card {
+        height: 55vh; /* Slightly taller on mobile */
+        min-height: 450px;
+        padding: 25px;
+    }
+
+    .options label {
+        padding: 12px;
+        margin: 10px 0;
+    }
+
+    .buttons {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
+/* Mobile Responsiveness (Phone Screens <= 600px) */
+@media (max-width: 600px) {
+    body {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        font-size: 14px;
+    }
+
+    /* Header (from intro.css, adjusted for consistency) */
+    header {
+        height: 50px;
+        padding: 8px 10px;
+    }
+
+    .brand-name {
+        font-size: 1.2rem;
+        line-height: 1;
+        position: static;
+        left: auto;
+    }
+
+    .brand-name span:last-child {
+        font-size: 1.2rem;
+        margin-top: -0.1em;
+        position: static;
+        left: auto;
+    }
+
+    nav#nav-bar {
+        gap: 5px;
+        flex-wrap: wrap;
+    }
+
+    .nav-link {
+        padding: 4px 6px;
+    }
+
+    .language-button {
+        padding: 4px 6px;
+    }
+
+    .language-icon {
+        font-size: 0.9rem;
+    }
+
+    .language-dropdown {
+        min-width: 100px;
+        right: -10px;
+    }
+
+    .language-option {
+        padding: 8px 10px;
+        font-size: 0.8rem;
+    }
+
+    .nav-link#theme-toggle {
+        font-size: 16px;
+    }
+
+    .dropdown-menu {
+        min-width: 80px;
+    }
+
+    .mode-option {
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+
+    /* Test Container */
+    .test-container {
+        width: calc(100vw - 20px);
+        max-width: none;
+    }
+
+    /* Back Button */
+    .back-button {
+        font-size: 0.9rem;
+        padding: 10px 12px;
+        margin-bottom: 8px;
+    }
+
+    /* Test Header */
+    .test-header {
+        min-width: auto;
+        max-width: 100%;
+        padding: 10px;
+        gap: 8px;
+        margin-bottom: 15px;
+    }
+
+    .progress-tracker {
+        font-size: 0.95rem;
+    }
+
+    .progress-tracker span {
+        font-size: 14px !important;
+    }
+
+    .timer {
+        font-size: 0.9rem;
+        min-width: 50px;
+        padding: 6px 8px;
+    }
+
+    .hide-timer-toggle {
+        font-size: 0.8rem;
+    }
+
+    /* Question Card */
+    .question-card {
+        min-width: auto;
+        max-width: 100%;
+        padding: 20px;
+        min-height: 50vh;
+        max-height: 50vh;
+    }
+
+    .question-area h3 {
+        font-size: 1.1rem;
+        margin-bottom: 15px;
+    }
+
+    .options {
+        margin-bottom: 15px;
+        padding-right: 3px;
+    }
+
+    .options label {
+        padding: 10px;
+        margin: 8px 0;
+        font-size: 0.9rem;
+    }
+
+    .options input[type="radio"] {
+        width: 13px;
+        height: 13px;
+        margin-right: 10px;
+        margin-top: 3px;
+    }
+
+    /* Buttons */
+    .buttons {
+        gap: 10px;
+        padding-top: 15px;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+        min-height: 40px;
+    }
+
+    /* Footer */
+    footer {
+        padding: 15px 10px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .footer-links {
+        gap: 10px;
+    }
+
+    footer .muted {
+        font-size: 0.75rem;
+    }
+
+    /* Background Pillar */
+    body::before {
+        width: 90%;
+        top: 10vh;
+        bottom: 10vh;
+    }
+}

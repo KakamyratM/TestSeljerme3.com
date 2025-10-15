@@ -1,0 +1,236 @@
+{
+    "global": {
+        "title": "GelBileli",
+        "brand": "GelBileli",
+        "tagline": "Personalisierte Mathematiktests & Lernen"
+    },
+    "nav": {
+        "features": "Funktionen",
+        "how": "So funktioniert's",
+        "curriculum": "Lehrplan",
+        "plans": "Pläne"
+    },
+    "hero": {
+        "title": "Willkommen bei GelBileli",
+        "lead1": "Mathematik kann manchmal knifflig sein. Du lernst fleißig, vergisst aber später Teile. Das passiert uns allen – das ist normal! Diese kleinen Lücken können dich bei Tests oder realen Problemen stolpern lassen.",
+        "lead2": "Deshalb habe ich GelBileli erstellt. Es nutzt einfache, freundliche Tests, um deine Schwachstellen schnell zu finden. Erhalte klare Tipps, was du üben sollst, spare Zeit und baue Selbstvertrauen auf. Lass uns zusammen diese Lücken schließen und Mathematik leichter machen."
+    },
+    "features": {
+        "title": "Warum GelBileli?",
+        "adaptive": "Adaptive Tests",
+        "adaptiveDesc": "Jeder Test passt sich deinem Können an, für eine genaue Bewertung.",
+        "insights": "Einsichten & Analysen",
+        "insightsDesc": "Erfahre genau, in welchen Bereichen du stark bist und wo du dich verbessern musst.",
+        "guided": "Geleitetes Lernen",
+        "guidedDesc": "Folge empfohlenen Übungen basierend auf deinen Ergebnissen."
+    },
+    "how": {
+        "title": "So funktioniert's"
+    },
+    "steps": {
+        "1": {
+            "title": "Führe einen Einstiegstest durch",
+            "desc": "Wähle dein Thema und Schwierigkeitsgrad, um eine Basisbewertung deiner Fähigkeiten zu erhalten."
+        },
+        "2": {
+            "title": "Erkenne deine Fehler",
+            "desc": "Erhalte sofort detailliertes Feedback, das deine genauen Stärken und Schwächen identifiziert."
+        },
+        "3": {
+            "title": "Lerne und übe",
+            "desc": "Schau dir empfohlene Videos an und schließe maßgeschneiderte Übungen ab, um schwache Bereiche zu stärken."
+        },
+        "4": {
+            "title": "Wiederhole den Test und messe Fortschritt",
+            "desc": "Mache einen neuen Test zu denselben Themen/Schwierigkeitsgraden, um deinen Fortschritt zu verfolgen."
+        }
+    },
+    "cta": {
+        "start": "Starte deinen kostenlosen Test jetzt!"
+    },
+    "curriculum": {
+        "showButton": "Mathematik-Lehrplan erkunden",
+        "title": "Unser vollständiger GelBileli-Lehrplan",
+        "intro": "Entdecke unsere Themen von elementaren Grundlagen bis zu fortgeschrittenem Kalkül. Klicke auf ein Thema, um jetzt Übungsfragen zu starten!"
+    },
+    "subjects": {
+        "algebra1": {
+            "title": "Algebra I (Klassen 9–10)",
+            "subtitle": "Wesentliche Bausteine der Sekundarschul-Algebra.",
+            "topics": {
+                "expressions": "Ausdrücke, Gleichungen, Ungleichungen",
+                "linear": "Lineare Gleichungen & Funktionen",
+                "slope": "Steigung, Achsenabschnitte, Graphen von Geraden",
+                "systems": "Gleichungssysteme: Substitution, Elimination",
+                "exponents": "Exponenten & Exponentialfunktionen",
+                "polynomials": "Polynome: Operationen & Faktorisierung",
+                "quadratics": "Quadratische Gleichungen: Faktorisierung, Vervollständigung des Quadrats, Quadratische Formel",
+                "rational": "Rationale Ausdrücke & Gleichungen",
+                "radical": "Radikale Ausdrücke & Gleichungen",
+                "absolute": "Absolutwert-Gleichungen & -Ungleichungen",
+                "sequences": "Folgen: Arithmetisch & Geometrisch (Einführung)"
+            }
+        },
+        "geometry": {
+            "title": "Geometrie (Klassen 9–10)",
+            "subtitle": "Formen, räumliches Denken und Messung.",
+            "topics": {
+                "logic": "Logik & Begründung, Beweise",
+                "parallel": "Parallele & Senkrechte Linien",
+                "angles": "Winkelbeziehungen",
+                "triangles": "Dreiecke: Kongruenz & Ähnlichkeit",
+                "pythagorean": "Pythagoras-Satz & Abstandsformel",
+                "quadrilaterals": "Vierecke & Vielecke",
+                "circles": "Kreise: Bögen, Sehnen, Zentral- & Einbeschriebene Winkel",
+                "perimeter": "Umfang, Fläche, Volumen, Oberfläche",
+                "transformations": "Transformationen: Verschiebungen, Drehungen, Spiegelungen, Dehnungen",
+                "coordinate": "Koordinatengeometrie: Steigung, Mittelpunkt, Abstand",
+                "trig": "Grundlegende Trigonometrie in rechtwinkligen Dreiecken"
+            }
+        },
+        "algebra2": {
+            "title": "Algebra II / Fortgeschrittene Algebra (Klassen 10–11)",
+            "subtitle": "Erweiterung algebraischer Konzepte für höhere Mathematik.",
+            "topics": {
+                "complex": "Komplexe Zahlen: Operationen, Polare Form",
+                "polynomials": "Quadratische, Kubische, Höhergradige Polynome",
+                "rational": "Rationale Ausdrücke & Gleichungen",
+                "radical": "Radikale Ausdrücke & Rationale Exponenten",
+                "exponential": "Exponential- & Logarithmusfunktionen",
+                "sequences": "Folgen & Reihen: Arithmetisch, Geometrisch, Sigma-Notation",
+                "matrices": "Matrizen & Determinanten",
+                "probability": "Wahrscheinlichkeit & Kombinatorik: Permutationen, Kombinationen, Binomialtheorem",
+                "conics": "Kegelschnitte: Parabeln, Ellipsen, Hyperbeln, Kreise",
+                "piecewise": "Stückweise Funktionen"
+            }
+        },
+        "precalc": {
+            "title": "Analysisvorbereitung: Trigonometrie & Funktionen",
+            "subtitle": "Grundlegende Themen für fortgeschrittenes Mathematikstudium.",
+            "topics": {
+                "sohcahtoa": "Trigonometrie: SOHCAHTOA, Einheitskreis",
+                "trigFunctions": "Trigonometrische Funktionen: sin, cos, tan, csc, sec, cot",
+                "identities": "Trigonometrische Identitäten & Gleichungen",
+                "graphs": "Graphen & Transformationen trigonometrischer Funktionen",
+                "functionNotation": "Funktionsnotation, Definitionsbereich, Wertebereich",
+                "inverse": "Inverse Funktionen",
+                "polynomial": "Polynomiale, Rationale, Exponentiale, Logarithmische, Stückweise, Treppenfunktionen",
+                "parametric": "Parametrische Gleichungen",
+                "vectors": "Vektoren: Betrag, Richtung, Operationen",
+                "coordinate": "Fortgeschrittene Koordinatengeometrie",
+                "conics": "Kegelschnitte im Detail"
+            }
+        },
+        "advanced": {
+            "title": "Fortgeschrittene Themen: Analysis & Statistik",
+            "subtitle": "Universitätsniveau-Konzepte und Datenanalyse.",
+            "topics": {
+                "limits": "Grenzwerte & Stetigkeit",
+                "derivatives": "Ableitungen: Regeln & Anwendungen",
+                "integrals": "Integrale: Bestimmte & Unbestimmte, Fläche unter der Kurve",
+                "theorem": "Fundamentalsatz der Analysis",
+                "differential": "Grundlegende Differentialgleichungen (Einführung)",
+                "series": "Reihen: Arithmetisch, Geometrisch, Unendlich",
+                "data": "Datenanalyse: Mittelwert, Median, Modus, Standardabweichung",
+                "probability": "Wahrscheinlichkeit: Unabhängige & Abhängige Ereignisse",
+                "binomial": "Binomialverteilung",
+                "normal": "Normalverteilung & Z-Werte",
+                "matrices": "Matrizen & Lineare Transformationen"
+            }
+        }
+    },
+    "modal": {
+        "title": "Starte deinen Mathematiktest",
+        "intro": "Gib deine Details ein und wähle ein Thema, um mit der adaptiven Bewertung zu beginnen.",
+        "firstNameLabel": "Vorname",
+        "lastNameLabel": "Nachname",
+        "topicLabel": "Mathematikbereich auswählen",
+        "topicPlaceholder": "Themenbereich wählen...",
+        "preAlgebraGroup": "Vor-Algebra (Klasse 8)",
+        "preAlgebra1": "Vor-Algebra: Grundlagen",
+        "preAlgebra2": "Vor-Algebra: Zahlen & Dezimalen",
+        "preAlgebra3": "Vor-Algebra: Raten & Verhältnisse",
+        "algebra1Group": "Algebra I (Klassen 9-10)",
+        "algebra1-1": "Algebra 1: Lineare Gleichungen",
+        "algebra1-2": "Algebra 1: Funktionen & Exponenten",
+        "geometryGroup": "Geometrie (Klassen 9-10)",
+        "geometry-1": "Geometrie: Formen & Beweise",
+        "geometry-2": "Geometrie: Messung & Transformationen",
+        "algebra2Group": "Algebra II / Fortgeschritten (Klassen 10-11)",
+        "algebra2-1": "Algebra 2: Fortgeschrittene Gleichungen",
+        "algebra2-2": "Algebra 2: Logarithmen & Komplexe Zahlen",
+        "precalcGroup": "Analysisvorbereitung (Klassen 11-12)",
+        "precalc-1": "Analysisvorbereitung: Funktionen & Grenzwerte",
+        "precalc-2": "Analysisvorbereitung: Trigonometrie & Analysis-Einführung",
+        "startButton": "Test starten"
+    },
+    "footer": {
+        "copyright": "© 2025 GelBileli • Alle Rechte vorbehalten",
+        "privacy": "Datenschutz",
+        "terms": "Nutzungsbedingungen",
+        "contact": "Kontakt"
+    },
+    "contact": {
+        "title": "Kontaktiere uns",
+        "intro": "Hast du eine Frage zu Mathe-Tests oder brauchst Hilfe? Wir sind da – Antwort innerhalb 24 Stunden!",
+        "nameLabel": "Name",
+        "emailLabel": "E-Mail",
+        "messageLabel": "Nachricht",
+        "sendButton": "Nachricht senden",
+        "directEmail": "Oder schicke uns direkt eine E-Mail:",
+        "phoneLabel": "Telefon:",
+        "social": "Folge uns auf [Sozialen Links, z.B. Twitter oder Instagram]."
+    },
+    "privacy": {
+        "title": "Datenschutzerklärung",
+        "lastUpdated": "Zuletzt aktualisiert: 04. Oktober 2025",
+        "intro": "Bei GelBileli respektieren wir deine Privatsphäre. Diese Erklärung beschreibt, wie wir deine Informationen sammeln, nutzen und schützen, wenn du unsere Mathe-Lernplattform verwendest.",
+        "whatCollect": "Was wir sammeln",
+        "personalInfo": "Persönliche Infos: Name, E-Mail und Test-Antworten (aus Anmeldeformularen).",
+        "usageData": "Nutzungsdaten: IP-Adresse, Browser-Typ und besuchte Seiten (über Cookies für bessere Site-Erfahrung).",
+        "howUse": "Wie wir es nutzen",
+        "useDesc": "Wir nutzen deine Daten, um personalisierte Tests zu erstellen, Fortschritt zu tracken und hilfreiche Updates zu senden. Wir verkaufen oder teilen sie nicht mit Dritten, außer sicheren Prozessoren (z.B. E-Mail-Dienste).",
+        "security": "Sicherheit & Deine Rechte",
+        "securityDesc": "Deine Daten werden sicher gespeichert. Du kannst sie jederzeit einsehen, aktualisieren oder löschen – schreib uns an [your-email@example.com].",
+        "cookies": "Cookies",
+        "cookiesDesc": "Wir nutzen Cookies für Analysen. Du kannst sie in deinen Browser-Einstellungen verwalten.",
+        "questions": "Bei Fragen kontaktiere uns unter [your-email@example.com]."
+    },
+    "terms": {
+        "title": "Nutzungsbedingungen",
+        "lastUpdated": "Zuletzt aktualisiert: 04. Oktober 2025",
+        "intro": "Indem du GelBileli nutzt, stimmst du diesen Bedingungen zu. Wenn nicht, nutze die Site bitte nicht.",
+        "services": "Unsere Dienste",
+        "servicesDesc": "Wir bieten kostenlose personalisierte Mathe-Tests und Lern-Tools. Inhalt ist nur für Bildungszwecke – keine Garantien für Ergebnisse.",
+        "rules": "Nutzungsregeln",
+        "rule1": "Sei ehrlich bei Tests (kein Schummeln).",
+        "rule2": "Kopiere oder teile unseren Inhalt nicht ohne Erlaubnis.",
+        "rule3": "Du musst 13+ sein, um die Site zu nutzen (oder elterliche Zustimmung haben).",
+        "rights": "Unsere Rechte & Grenzen",
+        "rightsDesc": "Wir besitzen allen Site-Inhalt. Wir haften nicht für Probleme durch Nutzung unserer Tools. Wir können den Zugriff jederzeit bei Regelverstößen beenden.",
+        "changes": "Änderungen & Recht",
+        "changesDesc": "Wir können diese Bedingungen aktualisieren – schau nach. Geregelt durch [dein Land/Bundesland]-Recht.",
+        "questions": "Fragen? Schreib an [your-email@example.com]."
+    },
+    "results": {
+        "title": "Test-Ergebnisse - GelBileli",
+        "backButton": "← Zurück zur Startseite",
+        "header": "Deine Test-Ergebnisse",
+        "subtitle": "Gut gemacht bei der Bewertung! So hast du abgeschnitten.",
+        "welcome": "Willkommen zurück!",
+        "scoreDetails": "0 / 0 richtig",
+        "scoreMessage": "Übe weiter, um dich zu verbessern!",
+        "breakdownTitle": "Themen-Aufschlüsselung",
+        "breakdownIntro": "Sieh deine Leistung in Unterthemen von",
+        "anotherTest": "Einen weiteren Test machen"
+    },
+    "test": {
+        "title": "Adaptiver Mathe-Test",
+        "backButton": "← Zurück zur Startseite",
+        "progressPrefix": "Frage",
+        "hideTimer": "Timer ausblenden",
+        "loading": "Frage lädt...",
+        "previous": "← Vorherige",
+        "next": "Nächste →"
+    }
+}

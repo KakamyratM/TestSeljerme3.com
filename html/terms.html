@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="terms.title">Terms of Service - TestSeljerme</title>
+    <link rel="stylesheet" href="../css/intro.css">
+    <link rel="stylesheet" href="../css/settings.css">
+    <link rel="stylesheet" href="../css/theme.css">
+    <style>
+        .legal-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            text-align: left;
+            line-height: 1.7;
+        }
+        .legal-content h1 {
+            font-size: 2rem;
+            color: #0b1220;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .legal-content h2 {
+            font-size: 1.5rem;
+            color: #0b1220;
+            margin: 30px 0 15px;
+            border-bottom: 2px solid #f0c040;
+            padding-bottom: 5px;
+        }
+        .legal-content ol {
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+        .legal-content li {
+            margin-bottom: 10px;
+        }
+        .last-updated {
+            color: #555;
+            font-style: italic;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header id="header">
+            <a class="brand" href="intro.html">
+                <div class="brand-name">
+                    <span class="black">Test</span>
+                    <span class="black">Seljerme</span>
+                </div>
+            </a>
+
+            <nav id="nav-bar" aria-label="Primary navigation">
+                <div class="language-selector">
+                    <button class="language-button nav-link" aria-label="Select Language">
+                        <span class="language-icon">🌐</span>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="#" class="language-option" data-lang="en">English</a>
+                        <a href="#" class="language-option" data-lang="ru">Русский</a>
+                        <a href="#" class="language-option" data-lang="tk">Türkmençe</a>
+                        <a href="#" class="language-option" data-lang="ko">한국어</a>
+                        <a href="#" class="language-option" data-lang="de">Deutsch</a>
+                        <a href="#" class="language-option" data-lang="tr">Türkçe</a>
+                    </div>
+                </div>
+                <div class="mode-dropdown">
+                    <button id="theme-toggle" class="nav-link" aria-label="Toggle theme mode" style="background: none; border: none; padding: 8px 12px; cursor: pointer;">
+                        <span id="current-theme-icon">🌙</span> <!-- Starts with night mode icon -->
+                    </button>
+                    <ul id="theme-menu" class="dropdown-menu" role="menu" aria-hidden="true"> <!-- Hidden by default -->
+                        <li role="menuitem">
+                            <a href="#" class="mode-option" data-theme="light" aria-label="Switch to Day Mode (Light Theme)">☀️</a>
+                        </li>
+                        <li role="menuitem">
+                            <a href="#" class="mode-option" data-theme="dark" aria-label="Switch to Night Mode (Dark Theme)">🌙</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <div class="legal-content">
+            <h1 data-i18n="terms.title">Terms of Service</h1>
+            <p class="last-updated" data-i18n="terms.lastUpdated">Last Updated: October 04, 2025</p>
+            
+            <p data-i18n="terms.intro">By using TestSeljerme, you agree to these terms. If you don't, please don't use the site.</p>
+            
+            <h2 data-i18n="terms.services">Our Services</h2>
+            <p data-i18n="terms.servicesDesc">We provide free personalized math tests and learning tools. Content is for educational use only—no warranties on results.</p>
+            
+            <h2 data-i18n="terms.rules">User Rules</h2>
+            <ol>
+                <li data-i18n="terms.rule1">Be honest in tests (no cheating).</li>
+                <li data-i18n="terms.rule2">Don't copy or share our content without permission.</li>
+                <li data-i18n="terms.rule3">You must be 13+ to use the site (or have parent consent).</li>
+            </ol>
+            
+            <h2 data-i18n="terms.rights">Our Rights & Limits</h2>
+            <p data-i18n="terms.rightsDesc">We own all site content. We're not liable for any issues from using our tools. We can end access anytime for rule breaks.</p>
+            
+            <h2 data-i18n="terms.changes">Changes & Law</h2>
+            <p data-i18n="terms.changesDesc">We may update these terms—check back. Governed by [your country/state] laws.</p>
+            
+            <p data-i18n="terms.questions">Questions? Email [your-email@example.com].</p>
+        </div>
+
+        <footer>
+            <div>
+                <div class="muted small" data-i18n="footer.copyright">© TestSeljerme.com 2025</div>
+            </div>
+
+            <div class="footer-links">
+                <a href="privacy.html" data-i18n="footer.privacy">Privacy</a>
+                <a href="terms.html" data-i18n="footer.terms">Terms</a>
+                <a href="contact.html" data-i18n="footer.contact">Contact</a>
+            </div>
+        </footer>
+    </div>
+    <script src="../js/i18n.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/darkmode.js"></script>
+</body>
+</html>

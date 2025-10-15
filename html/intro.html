@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="global.title">TestSeljerme</title>
+    <link rel="stylesheet" href="../css/intro.css">
+    <link rel="stylesheet" href="../css/settings.css">
+    <link rel="stylesheet" href="../css/theme.css">
+    <style>
+        #curriculum {
+            display: none;
+        }
+        #showCurriculum {
+            background-color: #f0c040;
+            color: #0b1220;
+            padding: 12px 30px;
+            font-size: 1.1rem;
+            transition: background-color 0.2s ease;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border: none;
+            cursor: pointer;
+            display: block;
+            margin: 20px auto;
+            text-decoration: none;
+        }
+        #showCurriculum:hover {
+            background-color: #d4a017;
+        }
+        #hideCurriculum {
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            float: right;
+            color: #0b1220;
+            margin-bottom: 10px;
+        }
+        #hideCurriculum:hover {
+            color: #f0c040;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header id="header">
+           
+
+               
+<a class="brand" href="#">
+    <div class="brand-name">
+        <span class="black">Test</span>
+        <span class="black">Seljerme</span>
+    </div>
+</a>
+
+            <nav id="nav-bar" aria-label="Primary navigation">
+             
+                <div class="language-selector">
+                    <button class="language-button nav-link" aria-label="Select Language">
+                        <span class="language-icon">🌐</span>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="#" class="language-option" data-lang="en">English</a>
+<a href="#" class="language-option" data-lang="ru">Русский</a>
+<a href="#" class="language-option" data-lang="tk">Türkmençe</a>
+<a href="#" class="language-option" data-lang="ko">한국어</a>
+<a href="#" class="language-option" data-lang="de">Deutsch</a>
+<a href="#" class="language-option" data-lang="tr">Türkçe</a>
+                    </div>
+                </div>
+                <div class="mode-dropdown">
+    <button id="theme-toggle" class="nav-link" aria-label="Toggle theme mode" style="background: none; border: none; padding: 8px 12px; cursor: pointer;">
+        <span id="current-theme-icon">🌙</span> <!-- Starts with night mode icon -->
+    </button>
+    <ul id="theme-menu" class="dropdown-menu" role="menu" aria-hidden="true"> <!-- Hidden by default -->
+        <li role="menuitem">
+            <a href="#" class="mode-option" data-theme="light" aria-label="Switch to Day Mode (Light Theme)">☀️</a>
+        </li>
+        <li role="menuitem">
+            <a href="#" class="mode-option" data-theme="dark" aria-label="Switch to Night Mode (Dark Theme)">🌙</a>
+        </li>
+    </ul>
+</div>
+            </nav>
+        </header>
+
+        <section class="hero" aria-labelledby="hero-title" id="features">
+            <div class="hero-card">
+                <div class="creator-intro">
+          <img src="images/DSC_5651 (1).jpg" alt="Professional headshot of the person on the website" class="creator-photo">
+                    <div class="creator-content">
+                        <h3 id="hero-title" class="creator-name">Kakamyrat Mammedov</h3>
+                        <p class="lead creator-title">
+        <span class="role-text">Creator of Test Seljerme</span>
+    </p>
+                         <p class="lead" data-i18n="hero.lead1">Math can feel tricky sometimes. You study hard, but later forget some parts. We all do that—it's normal! Those small gaps can trip you up on tests or real problems.</p>
+    <p class="lead" data-i18n="hero.lead2">That's why I made Test Seljerme. It uses simple, friendly tests to find your weak spots fast. Get clear tips on what to practice, save time, and build confidence. Let's fix those gaps together and make math easier.</p>
+</div>
+                </div>
+            </div>
+
+            <aside class="hero-aside" aria-labelledby="features">
+                <h3 id="features" data-i18n="features.title">Why choose?</h3>
+                <div class="feature-list">
+                    <div class="feature"><div class="dot">1</div><div><strong data-i18n="features.adaptive">Covers All School Topics</strong><div class="muted" data-i18n="features.adaptiveDesc">From basics to advanced, our tests include every main topic and subtopic you'll need for: school, university entrance exams, and more.</div></div></div>
+                    <div class="feature"><div class="dot">2</div><div><strong data-i18n="features.insights">Deep Details</strong><div class="muted" data-i18n="features.insightsDesc">See your full score for the topic, plus a simple breakdown of subtopics. It shows what you're great at and what needs fixing, so you know exactly where to study. </div></div></div>
+                    <div class="feature"><div class="dot">3</div><div><strong data-i18n="features.guided">Work on weaknesses</strong><div class="muted" data-i18n="features.guidedDesc">Use the results to work only on your weak spots. Then, come back and take the test again to see how much you've improved.</div></div></div>
+                </div>
+            </aside>
+        </section>
+
+        <section id="how">
+            <div class="container-how-it-works">
+                <h2 data-i18n="how.title">How it works</h2>
+                
+               <div class="steps-container">
+    <div class="step-box">
+        <div class="step-number">1</div>
+        <h3 data-i18n="steps.1.title">Take a Test</h3>
+        <p data-i18n="steps.1.desc">Choose your topic and take a timed test with a variety of difficulty levels.</p>
+    </div>
+    
+    <div class="step-box">
+        <div class="step-number">2</div>
+        <h3 data-i18n="steps.2.title">Review Mistakes</h3>
+        <p data-i18n="steps.2.desc">Get instant, detailed feedback on your strengths and weaknesses.</p>
+    </div>
+    
+    <div class="step-box">
+        <div class="step-number">3</div>
+        <h3 data-i18n="steps.3.title">Learn and Practice</h3>
+        <p data-i18n="steps.3.desc">Take notes and track your progress with simple visual boxes for each subtopic.</p>
+    </div>
+    
+    <div class="step-box">
+        <div class="step-number">4</div>
+        <h3 data-i18n="steps.4.title">Retest and Progress</h3>
+        <p data-i18n="steps.4.desc">Retest after mastering your skills to see your improvement.</p>
+    </div>
+</div>
+            </div>
+        </section>
+
+        <section id="action-cta" class="center-row">
+            <a class="cta prominent-cta" id="openSettingsModal" data-i18n="cta.start">Start Your Test</a>
+        </section>
+
+        <button id="showCurriculum" data-i18n="curriculum.showButton">Explore Math Curriculum</button>
+
+        <section id="curriculum">
+            <button id="hideCurriculum">&times;</button>
+            <h2 data-i18n="curriculum.title">Our Complete Math Curriculum</h2>
+            <p class="curriculum-intro" data-i18n="curriculum.intro">Explore our topics from elementary foundations through advanced calculus.</p>
+
+       <div class="curriculum-grid">
+<div class="subject-card">
+  <div>
+    <h3 class="subject-title" data-i18n="subjects.preAlgebra1.title">Pre-Algebra: Basics (Grade 8)</h3>
+    <p class="subject-subtitle" data-i18n="subjects.preAlgebra1.subtitle">Fundamental number concepts and operations.</p>
+  </div>
+  <div class="topic-list">
+    <div class="topic-button" data-i18n="subjects.preAlgebra1.topics.placeValue">Place Value</div>
+    <div class="topic-button" data-i18n="subjects.preAlgebra1.topics.wholeNumbers">Whole Numbers</div>
+    <div class="topic-button" data-i18n="subjects.preAlgebra1.topics.decimals">Decimals</div>
+    <div class="topic-button" data-i18n="subjects.preAlgebra1.topics.fractions">Fractions</div>
+    <div class="topic-button" data-i18n="subjects.preAlgebra1.topics.integers">Integers</div>
+    <div class="topic-button" data-i18n="subjects.preAlgebra1.topics.ratiosRates">Ratios & Rates</div>
+    <div class="topic-button" data-i18n="subjects.preAlgebra1.topics.unitRates">Unit Rates</div>
+    <div class="topic-button" data-i18n="subjects.preAlgebra1.topics.proportions">Proportions</div>
+    <div class="topic-button" data-i18n="subjects.preAlgebra1.topics.percentages">Percentages</div>
+ <div class="topic-button" data-i18n="subjects.preAlgebra1.topics.powersExponents">Powers and Exponents</div>
+    <div class="topic-button" data-i18n="subjects.preAlgebra1.topics.squareRoots">Square Roots</div>
+    <div class="topic-button" data-i18n="subjects.preAlgebra1.topics.scientificNotation">Scientific Notation</div>
+    <div class="topic-button" data-i18n="subjects.preAlgebra1.topics.orderOperations">Order of Operations</div>
+    <div class="topic-button" data-i18n="subjects.preAlgebra1.topics.basicMeasurement">Basic Measurement</div>
+    <div class="topic-button" data-i18n="subjects.preAlgebra1.topics.basicGeometry">Basic Geometry</div>
+    <div class="topic-button" data-i18n="subjects.preAlgebra1.topics.dataGraphs">Introduction to Data & Graphs</div>
+<div class="topic-button" data-i18n="subjects.preAlgebra1.topics.primeFactorsMultiples">Prime Numbers, Factors, Multiples</div>
+    <div class="topic-button" data-i18n="subjects.preAlgebra1.topics.gcfLcm">GCF & LCM</div>
+    <div class="topic-button" data-i18n="subjects.preAlgebra1.topics.simpleEquationsInequalities">Simple Equations & Inequalities</div>
+    <div class="topic-button" data-i18n="subjects.preAlgebra1.topics.coordinatePlane">Coordinate Plane</div>
+    <div class="topic-button" data-i18n="subjects.preAlgebra1.topics.probabilityStatistics">Probability & Statistics</div>
+</div>
+</div>
+    <div class="subject-card">
+      <div>
+        <h3 class="subject-title" data-i18n="subjects.algebra1.title">Algebra I (Grades 9–10)</h3>
+        <p class="subject-subtitle" data-i18n="subjects.algebra1.subtitle">Essential building blocks of high school algebra.</p>
+        </div>
+        <div class="topic-list">
+            <div class="topic-button" data-i18n="subjects.algebra1.topics.expressions">Expressions, Equations, Inequalities</div>
+            <div class="topic-button" data-i18n="subjects.algebra1.topics.linear">Linear Equations & Functions</div>
+            <div class="topic-button" data-i18n="subjects.algebra1.topics.slope">Slope, Intercepts, Graphing Lines</div>
+            <div class="topic-button" data-i18n="subjects.algebra1.topics.systems">Systems of Equations: Substitution, Elimination</div>
+            <div class="topic-button" data-i18n="subjects.algebra1.topics.exponents">Exponents & Exponential Functions</div>
+            <div class="topic-button" data-i18n="subjects.algebra1.topics.polynomials">Polynomials: Operations & Factoring</div>
+            <div class="topic-button" data-i18n="subjects.algebra1.topics.quadratics">Quadratic Equations: Factoring, Completing the Square, Quadratic Formula</div>
+            <div class="topic-button" data-i18n="subjects.algebra1.topics.rational">Rational Expressions & Equations</div>
+            <div class="topic-button" data-i18n="subjects.algebra1.topics.radical">Radical Expressions & Equations</div>
+            <div class="topic-button" data-i18n="subjects.algebra1.topics.absolute">Absolute Value Equations & Inequalities</div>
+            <div class="topic-button" data-i18n="subjects.algebra1.topics.sequences">Sequences: Arithmetic & Geometric (Intro)</div>
+    </div>
+          </div>
+
+    <div class="subject-card">
+      <div>
+        <h3 class="subject-title" data-i18n="subjects.geometry.title">Geometry (Grades 9–10)</h3>
+        <p class="subject-subtitle" data-i18n="subjects.geometry.subtitle">Shapes, spatial reasoning, and measurement.</p>
+        </div>
+        <div class="topic-list">
+            <div class="topic-button" data-i18n="subjects.geometry.topics.logic">Logic & Reasoning, Proofs</div>
+            <div class="topic-button" data-i18n="subjects.geometry.topics.parallel">Parallel & Perpendicular Lines</div>
+            <div class="topic-button" data-i18n="subjects.geometry.topics.angles">Angle Relationships</div>
+            <div class="topic-button" data-i18n="subjects.geometry.topics.triangles">Triangles: Congruence & Similarity</div>
+            <div class="topic-button" data-i18n="subjects.geometry.topics.pythagorean">Pythagorean Theorem & Distance Formula</div>
+            <div class="topic-button" data-i18n="subjects.geometry.topics.quadrilaterals">Quadrilaterals & Polygons</div>
+            <div class="topic-button" data-i18n="subjects.geometry.topics.circles">Circles: Arcs, Chords, Central & Inscribed Angles</div>
+            <div class="topic-button" data-i18n="subjects.geometry.topics.perimeter">Perimeter, Area, Volume, Surface Area</div>
+            <div class="topic-button" data-i18n="subjects.geometry.topics.transformations">Transformations: Translations, Rotations, Reflections, Dilations</div>
+            <div class="topic-button" data-i18n="subjects.geometry.topics.coordinate">Coordinate Geometry: Slope, Midpoint, Distance</div>
+            <div class="topic-button" data-i18n="subjects.geometry.topics.trig">Basic Trigonometry in Right Triangles</div>
+        
+    </div>
+</div>
+    <div class="subject-card">
+      <div>
+        <h3 class="subject-title" data-i18n="subjects.algebra2.title">Algebra II / Advanced Algebra (Grades 10–11)</h3>
+        <p class="subject-subtitle" data-i18n="subjects.algebra2.subtitle">Expanding algebraic concepts for higher math.</p>
+        </div>
+        <div class="topic-list">
+            <div class="topic-button" data-i18n="subjects.algebra2.topics.complex">Complex Numbers: Operations, Polar Form</div>
+            <div class="topic-button" data-i18n="subjects.algebra2.topics.polynomials">Quadratic, Cubic, Higher-Order Polynomials</div>
+            <div class="topic-button" data-i18n="subjects.algebra2.topics.rational">Rational Expressions & Equations</div>
+            <div class="topic-button" data-i18n="subjects.algebra2.topics.radical">Radical Expressions & Rational Exponents</div>
+            <div class="topic-button" data-i18n="subjects.algebra2.topics.exponential">Exponential & Logarithmic Functions</div>
+            <div class="topic-button" data-i18n="subjects.algebra2.topics.sequences">Sequences & Series: Arithmetic, Geometric, Sigma Notation</div>
+            <div class="topic-button" data-i18n="subjects.algebra2.topics.matrices">Matrices & Determinants</div>
+            <div class="topic-button" data-i18n="subjects.algebra2.topics.probability">Probability & Combinatorics: Permutations, Combinations, Binomial Theorem</div>
+            <div class="topic-button" data-i18n="subjects.algebra2.topics.conics">Conic Sections: Parabolas, Ellipses, Hyperbolas, Circles</div>
+            <div class="topic-button" data-i18n="subjects.algebra2.topics.piecewise">Piecewise Functions</div>
+        
+    </div>
+</div>
+    <div class="subject-card">
+      <div>
+        <h3 class="subject-title" data-i18n="subjects.precalc.title">Pre-Calculus: Trig & Functions</h3>
+        <p class="subject-subtitle" data-i18n="subjects.precalc.subtitle">Foundational topics for advanced math study.</p>
+        </div>
+        <div class="topic-list">
+            <div class="topic-button" data-i18n="subjects.precalc.topics.sohcahtoa">Trigonometry: SOHCAHTOA, Unit Circle</div>
+            <div class="topic-button" data-i18n="subjects.precalc.topics.trigFunctions">Trig Functions: sin, cos, tan, csc, sec, cot</div>
+            <div class="topic-button" data-i18n="subjects.precalc.topics.identities">Trig Identities & Equations</div>
+            <div class="topic-button" data-i18n="subjects.precalc.topics.graphs">Graphs & Transformations of Trig Functions</div>
+            <div class="topic-button" data-i18n="subjects.precalc.topics.functionNotation">Function Notation, Domain, Range</div>
+            <div class="topic-button" data-i18n="subjects.precalc.topics.inverse">Inverse Functions</div>
+            <div class="topic-button" data-i18n="subjects.precalc.topics.polynomial">Polynomial, Rational, Exponential, Logarithmic, Piecewise, Step Functions</div>
+            <div class="topic-button" data-i18n="subjects.precalc.topics.parametric">Parametric Equations</div>
+            <div class="topic-button" data-i18n="subjects.precalc.topics.vectors">Vectors: Magnitude, Direction, Operations</div>
+            <div class="topic-button" data-i18n="subjects.precalc.topics.coordinate">Advanced Coordinate Geometry</div>
+            <div class="topic-button" data-i18n="subjects.precalc.topics.conics">Conic Sections in Detail</div>
+        </div>
+    </div>
+
+    <div class="subject-card">
+      <div>
+        <h3 class="subject-title" data-i18n="subjects.advanced.title">Advanced Topics: Calculus & Stats</h3>
+        <p class="subject-subtitle" data-i18n="subjects.advanced.subtitle">University-level concepts and data analysis.</p>
+        </div>
+        <div class="topic-list">
+            <div class="topic-button" data-i18n="subjects.advanced.topics.limits">Limits & Continuity</div>
+            <div class="topic-button" data-i18n="subjects.advanced.topics.derivatives">Derivatives: Rules & Applications</div>
+            <div class="topic-button" data-i18n="subjects.advanced.topics.integrals">Integrals: Definite & Indefinite, Area Under Curve</div>
+            <div class="topic-button" data-i18n="subjects.advanced.topics.theorem">Fundamental Theorem of Calculus</div>
+            <div class="topic-button" data-i18n="subjects.advanced.topics.differential">Basic Differential Equations (Intro)</div>
+            <div class="topic-button" data-i18n="subjects.advanced.topics.series">Series: Arithmetic, Geometric, Infinite Series</div>
+            <div class="topic-button" data-i18n="subjects.advanced.topics.data">Data Analysis: Mean, Median, Mode, Standard Deviation</div>
+            <div class="topic-button" data-i18n="subjects.advanced.topics.probability">Probability: Independent & Dependent Events</div>
+            <div class="topic-button" data-i18n="subjects.advanced.topics.binomial">Binomial Distribution</div>
+            <div class="topic-button" data-i18n="subjects.advanced.topics.normal">Normal Distribution & Z-Scores</div>
+            <div class="topic-button" data-i18n="subjects.advanced.topics.matrices">Matrices & Linear Transformations</div>
+        </div>
+    </div>
+
+</div>
+        </section>
+
+        <footer>
+            <div>
+                <div class="muted small" data-i18n="footer.copyright">© TestSeljerme.com 2025</div>
+            </div>
+
+            <div class="footer-links">
+                <a href="privacy.html" data-i18n="footer.privacy">Privacy</a>
+                <a href="terms.html" data-i18n="footer.terms">Terms</a>
+                <a href="contact.html" data-i18n="footer.contact">Contact</a>
+            </div>
+        </footer>
+    </div>
+    
+    <div id="settingsModal" class="modal-overlay">
+        <div class="settings-container">
+            <button id="closeSettingsModal" class="close-button" aria-label="Close Test Settings">×</button> 
+            
+            <header>
+                <h1 data-i18n="modal.title">Start Your Math Test</h1>
+                <p data-i18n="modal.intro">Enter your details and select a topic to begin your adaptive assessment.</p>
+            </header>
+
+            <form id="settingsForm">
+                <div class="input-group">
+                    <label for="name" data-i18n="modal.firstNameLabel">First Name</label>
+                    <input type="text" id="name" placeholder="E.g., Alex" required>
+                    <div class="error-message" id="name-error"></div>
+                </div>
+
+                <div class="input-group">
+                    <label for="surname" data-i18n="modal.lastNameLabel">Last Name</label>
+                    <input type="text" id="surname" placeholder="E.g., Johnson" required>
+                    <div class="error-message" id="surname-error"></div>
+                </div>
+
+                <div class="input-group select-group">
+                    <label for="topic" data-i18n="modal.topicLabel">Select Math Area</label>
+                    <select id="topic" required>
+                        
+                        <option value="" disabled selected data-i18n="modal.topicPlaceholder">Choose a Topic Area...</option>
+                        
+                        <optgroup label="Pre-Algebra (Grade 8)" data-i18n="modal.preAlgebraGroup">
+                            <option value="Pre-Algebra-1" data-i18n="modal.preAlgebra1">Pre-Algebra: Basics</option> 
+                            <option value="Pre-Algebra-2" data-i18n="modal.preAlgebra2">Pre-Algebra: Numbers & Decimals</option>
+                            <option value="Pre-Algebra-3" data-i18n="modal.preAlgebra3">Pre-Algebra: Rates & Ratios</option>
+                        </optgroup>
+                        
+                        <optgroup label="Algebra I (Grades 9-10)" data-i18n="modal.algebra1Group">
+                            <option value="Algebra1-1" data-i18n="modal.algebra1-1">Algebra 1: Linear Equations</option>
+                            <option value="Algebra1-2" data-i18n="modal.algebra1-2">Algebra 1: Functions & Exponents</option>
+                        </optgroup>
+                        
+                        <optgroup label="Geometry (Grades 9-10)" data-i18n="modal.geometryGroup">
+                            <option value="Geometry-1" data-i18n="modal.geometry-1">Geometry: Shapes & Proofs</option>
+                            <option value="Geometry-2" data-i18n="modal.geometry-2">Geometry: Measurement & Transformations</option>
+                        </optgroup>
+                        
+                        <optgroup label="Algebra II / Advanced (Grades 10-11)" data-i18n="modal.algebra2Group">
+                            <option value="Algebra2-1" data-i18n="modal.algebra2-1">Algebra 2: Advanced Equations</option>
+                            <option value="Algebra2-2" data-i18n="modal.algebra2-2">Algebra 2: Logarithms & Complex Numbers</option>
+                        </optgroup>
+                        
+                        <optgroup label="Pre-Calculus (Grades 11-12)" data-i18n="modal.precalcGroup">
+                            <option value="PreCalculus-1" data-i18n="modal.precalc-1">Pre-Calculus: Functions & Limits</option>
+                            <option value="PreCalculus-2" data-i18n="modal.precalc-2">Pre-Calculus: Trigonometry & Calculus Intro</option>
+                        </optgroup>
+                    </select>
+                </div>
+
+                <button type="submit" id="startButton" data-i18n="modal.startButton">Start Test</button>
+            </form>
+        </div>
+    </div>
+   <script src="../js/i18n.js"></script>  
+   <script src="../js/main.js"></script>
+<script src="../js/settings.js"></script>
+    <script>
+        document.getElementById('showCurriculum').addEventListener('click', function() {
+            document.getElementById('curriculum').style.display = 'block';
+            this.style.display = 'none';
+        });
+        document.getElementById('hideCurriculum').addEventListener('click', function() {
+            document.getElementById('curriculum').style.display = 'none';
+            document.getElementById('showCurriculum').style.display = 'block';
+        });
+    </script>
+    <script src="../js/darkmode.js"></script>
+</body>
+</html>

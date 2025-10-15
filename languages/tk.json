@@ -1,0 +1,236 @@
+{
+    "global": {
+        "title": "GelBileli",
+        "brand": "GelBileli",
+        "tagline": "Şahsylaşdyrylan matematika synaglary we okuwy"
+    },
+    "nav": {
+        "features": "Aýratynlyklar",
+        "how": "Nädip işleýär",
+        "curriculum": "Okuw meýilnamasy",
+        "plans": "Meýilnamalar"
+    },
+    "hero": {
+        "title": "GelBilelä Hoş Gelipsiňiz",
+        "lead1": "Matematika käwagt çylşyrymly bolup biler. Sen köp okaýarsyň, ýöne soňra käbir bölekleri ýatdan çykarýarsyň. Biz hemmämiz şeýle edýäris – bu kadaly zat! Şol ownuk ýetmezçilikler synaglarda ýa-da hakyky meselelerde size päsgel berip biler.",
+        "lead2": "Şonuň üçin men GelBileli taslamasyny döretdim. Ol gysga we ýönekeý synaglary ulanyp, gowşak taraplaryňy çalt tapýar. Näme öwrenmelidigiň barada anyk maslahatlary al, wagt tygşytla we özüňe ynam döret. Geliň, şol boşluklary bilelikde dolduralyň we matematikany aňsatlaşdyralyň."
+    },
+    "features": {
+        "title": "Näme üçin GelBileli-ni saýlamaly?",
+        "adaptive": "Uýgunlaşýan Synaglar",
+        "adaptiveDesc": "Her synag takyk baha bermek üçin siziň ukybyňyza görä sazlanýar.",
+        "insights": "Analiz we Düşünjeler",
+        "insightsDesc": "Haysy ugurlarda tapawutlanýandygyňyzy we haýsynda gowulanmagyň zerurdygyny anyk biliň.",
+        "guided": "Ýol görkeziji okuw",
+        "guidedDesc": "Netijeleriňize esaslanyp maslahat berlen gönükmeleri ýerine ýetiriň."
+    },
+    "how": {
+        "title": "Nädip işleýär"
+    },
+    "steps": {
+        "1": {
+            "title": "Başlangyç Synagdan Geç",
+            "desc": "Ukyplaryňyzy esasy baha bermek üçin mowzugyňyzy we kynçylyk derejesini saýlaň."
+        },
+        "2": {
+            "title": "Ýalňyşlaryňy Bil",
+            "desc": "Güýçli we gowşak taraplaryňyzy anyklaýan derrew, jikme-jik netijeleri alyň."
+        },
+        "3": {
+            "title": "Öwren we Gaýtala",
+            "desc": "Gowşak ýerleri nyşana almak üçin maslahat berilýän wideolary görüň we ýöriteleşdirilen gönükmeleri çözüň."
+        },
+        "4": {
+            "title": "Täzeden Synag we Ösüş",
+            "desc": "Ösüşiňizi yzarlamak üçin şol bir mowzuklar/kynçylykda täze synagdan geçiň."
+        }
+    },
+    "cta": {
+        "start": "Mugt Synagyňyzy Häzir Başlaň!"
+    },
+    "curriculum": {
+        "showButton": "Matematika Okuw meýilnamasyny öwren",
+        "title": "Biziň Doly GelBileli Okuw meýilnamamyz",
+        "intro": "Başlangyç esaslardan tä iň ýokary hasaplamalara çenli mowzuklarymyzy öwreniň. Soraglary çözüp başlamak üçin islendik mowzuga basyň!"
+    },
+    "subjects": {
+        "algebra1": {
+            "title": "Algebra I (9–10-njy synplar)",
+            "subtitle": "Ýokary synp algebranyň esasy gurluş bölekleri.",
+            "topics": {
+                "expressions": "Aňlatmalar, Deňlemeler, Deňsizlikler",
+                "linear": "Çyzykly Deňlemeler we Funksiýalar",
+                "slope": "Burç koeffisiýenti, Kesişme nokatlary, Çyzyklaryň grafikleri",
+                "systems": "Deňlemeler ulgamlary: Ýerine goýma, Ýok etme usuly",
+                "exponents": "Derejeler we Göteriji Funksiýalar",
+                "polynomials": "Köpagzalar: Amallar we Köpeldijilere dagytmak",
+                "quadratics": "Kwadrat Deňlemeler: Köpeldijilere dagytmak, Kwadraty doldurmak, Kwadratik Formula",
+                "rational": "Rasional Aňlatmalar we Deňlemeler",
+                "radical": "Radikal Aňlatmalar we Deňlemeler",
+                "absolute": "Mutlak Baha Deňlemeleri we Deňsizlikler",
+                "sequences": "Yzygiderlilikler: Arifmetiki we Geometrik (Giriş)"
+            }
+        },
+        "geometry": {
+            "title": "Geometriýa (9–10-njy synplar)",
+            "subtitle": "Şekiller, giňişlik pikiri we ölçeg.",
+            "topics": {
+                "logic": "Logika we Pikir ýöretme, Subutnamalar",
+                "parallel": "Parallel we Perpendikulýar Çyzyklar",
+                "angles": "Burç gatnaşyklary",
+                "triangles": "Üçburçluklar: Kongruentlik we Meňzeşlik",
+                "pythagorean": "Pifagoryň teoremasy we Aralyk Formulasy",
+                "quadrilaterals": "Dörtburçluklar we Köpburçluklar",
+                "circles": "Töwerekler: Ýaýlar, Hordalar, Merkezi we Ýazylan burçlar",
+                "perimeter": "Perimetr, Meýdan, Göwrüm, Üstüniň Meýdany",
+                "transformations": "Transformasiýalar: Göçürmeler, Öwürmeler, Simmetriýalar, Gomotetiýa",
+                "coordinate": "Koordinat Geometriýasy: Burç koeffisiýenti, Orta nokat, Aralyk",
+                "trig": "Gönüburçly Üçburçluklarda Esasy Trigonometriýa"
+            }
+        },
+        "algebra2": {
+            "title": "Algebra II / Öňdebaryjy Algebra (10–11-nji synplar)",
+            "subtitle": "Ýokary matematika üçin algebraik düşünjeleri giňeltmek.",
+            "topics": {
+                "complex": "Çylşyrymly Sanlar: Amallar, Polýar görnüşi",
+                "polynomials": "Kwadrat, Kubik, Ýokary derejeli Köpagzalar",
+                "rational": "Rasional Aňlatmalar we Deňlemeler",
+                "radical": "Radikal Aňlatmalar we Rasional Derejeler",
+                "exponential": "Göteriji we Logarifmik Funksiýalar",
+                "sequences": "Yzygiderlilikler we Tizlikler: Arifmetiki, Geometrik, Sigma belgisi",
+                "matrices": "Matrisalar we Determinantlar",
+                "probability": "Ähtimallyk we Kombinatorika: Permutasiýalar, Kombinasiýalar, Binomial Teorema",
+                "conics": "Konus Kesikleri: Parabolalar, Ellipsler, Giperbolalar, Töwerekler",
+                "piecewise": "Bölekleýin Funksiýalar"
+            }
+        },
+        "precalc": {
+            "title": "Pre-Kalkulus: Trigonometriýa we Funksiýalar",
+            "subtitle": "Öňdebaryjy matematika okuwy üçin esasy mowzuklar.",
+            "topics": {
+                "sohcahtoa": "Trigonometriýa: SOHCAHTOA, Birlik Töweregi",
+                "trigFunctions": "Trigonometrik Funksiýalar: sin, cos, tan, csc, sec, cot",
+                "identities": "Trigonometrik Deňlikler we Deňlemeler",
+                "graphs": "Trigonometrik Funksiýalaryň Grafikleri we Transformasiýalary",
+                "functionNotation": "Funksiýa belligi, Kesgitleniş we Baha oblastlary",
+                "inverse": "Ters Funksiýalar",
+                "polynomial": "Köpagza, Rasional, Göteriji, Logarifmik, Bölekleýin, Ädim Funksiýalar",
+                "parametric": "Parametrik Deňlemeler",
+                "vectors": "Wektorlar: Ululygy, Ugrukmasy, Amallar",
+                "coordinate": "Öňdebaryjy Koordinat Geometriýasy",
+                "conics": "Konus Kesikleri Jikme-jik"
+            }
+        },
+        "advanced": {
+            "title": "Öňdebaryjy Mowzuklar: Hasaplama we Statistika",
+            "subtitle": "Uniwersitet derejesindäki düşünjeler we maglumat seljermesi.",
+            "topics": {
+                "limits": "Limitler we Üznüksizlik",
+                "derivatives": "Önümler (Derivatiwler): Kadalar we Ulanylyşlar",
+                "integrals": "Integrallar: Kesgitli we Kesgitsiz, Egri Aşagyndaky Meýdan",
+                "theorem": "Hasaplamanyň Esasy Teoremasy",
+                "differential": "Esasy Differensial Deňlemeler (Giriş)",
+                "series": "Tizlikler: Arifmetiki, Geometrik, Çäksiz Tizlikler",
+                "data": "Maglumat Seljermesi: Orta, Median, Moda, Standart Gyşarma",
+                "probability": "Ähtimallyk: Garaşsyz we Garaşly Wakalar",
+                "binomial": "Binomial Paýlanyş",
+                "normal": "Adaty Paýlanyş we Z-Sanlar",
+                "matrices": "Matrisalar we Çyzykly Transformasiýalar"
+            }
+        }
+    },
+    "modal": {
+        "title": "Matematika Synagyňyzy Başlaň",
+        "intro": "Şahsylaşdyrylan baha bermegiňizi başlamak üçin maglumatyňyzy giriziň we bir mowzuk saýlaň.",
+        "firstNameLabel": "Adyňyz",
+        "lastNameLabel": "Familiýaňyz",
+        "topicLabel": "Matematika Bölümini Saýlaň",
+        "topicPlaceholder": "Bir Mowzuk Saýlaň...",
+        "preAlgebraGroup": "Pre-Algebra (8-nji synp)",
+        "preAlgebra1": "Pre-Algebra: Esaslar",
+        "preAlgebra2": "Pre-Algebra: Sanlar we Onluk Sanlar",
+        "preAlgebra3": "Pre-Algebra: Derejeler we Gatnaşyklar",
+        "algebra1Group": "Algebra I (9-10-njy synplar)",
+        "algebra1-1": "Algebra 1: Çyzykly Deňlemeler",
+        "algebra1-2": "Algebra 1: Funksiýalar we Derejeler",
+        "geometryGroup": "Geometriýa (9-10-njy synplar)",
+        "geometry-1": "Geometriýa: Şekiller we Subutnamalar",
+        "geometry-2": "Geometriýa: Ölçeg we Transformasiýalar",
+        "algebra2Group": "Algebra II / Öňdebaryjy (10-11-nji synplar)",
+        "algebra2-1": "Algebra 2: Öňdebaryjy Deňlemeler",
+        "algebra2-2": "Algebra 2: Logarifmler we Çylşyrymly Sanlar",
+        "precalcGroup": "Pre-Kalkulus (11-12-nji synplar)",
+        "precalc-1": "Pre-Kalkulus: Funksiýalar we Limitler",
+        "precalc-2": "Pre-Kalkulus: Trigonometriýa we Hasaplama Giriş",
+        "startButton": "Synagy Başlat"
+    },
+    "footer": {
+        "copyright": "© 2025 GelBileli • Ähli hukuklar goralan",
+        "privacy": "Gizlinlik Syýasaty",
+        "terms": "Şertler",
+        "contact": "Habarlaşmak"
+    },
+    "contact": {
+        "title": "Biziň Bilen Habarlaşyň",
+        "intro": "Matematika synaglary barada soragyňyz barmy ýa-da kömek gerekmi? Biz şu ýerde — 24 sagadyň içinde jogap bereris!",
+        "nameLabel": "Ady",
+        "emailLabel": "E-poçta",
+        "messageLabel": "Habar",
+        "sendButton": "Habary Iber",
+        "directEmail": "Ýa-da göni e-poçta iberiň:",
+        "phoneLabel": "Telefon:",
+        "social": "[Sosial baglanyşyklar, mysal üçin, Twitter ýa-da Instagram] ulgamlarynda bizi yzarläň."
+    },
+    "privacy": {
+        "title": "Gizlinlik Syýasaty",
+        "lastUpdated": "Soňky Täzelenme: 4-nji Oktýabr, 2025",
+        "intro": "GelBileli-de, biz siziň gizlinligiňize hormat goýýarys. Bu syýasat, biziň matematika öwreniş platformamyzy ulananyňyzda maglumatyňyzy nädip ýygnap, ulanyp we gorýändigimizi düşündirýär.",
+        "whatCollect": "Biz näme ýygnap alýarys",
+        "personalInfo": "Şahsy maglumat: Ady, e-poçta we synag jogaplary (hasaba alyş formasyndan).",
+        "usageData": "Ulanyş maglumaty: IP adresi, brauzer görnüşi we seredilen sahypalar (saýtyň gowy işlemegi üçin kökiler arkaly).",
+        "howUse": "Biz ony nädip ulanýarys",
+        "useDesc": "Biz maglumatyňyzy şahsylaşdyrylan synaglary döretmek, ösüşi yzarlamak we peýdaly täzelenmeleri ibermek üçin ulanýarys. Biz ony üçünji taraplar bilen satmaýarys ýa-da paýlaşmaýarys, diňe howpsuz gaýtadan işleýänler (mysal üçin, e-poçta hyzmatlary) bilen paýlaşýarys.",
+        "security": "Howpsuzlyk we Siziň Hukuklaryňyz",
+        "securityDesc": "Siziň maglumatyňyz ygtybarly saklanýar. Siz ony islendik wagtda görüp, täzeläp ýa-da pozup bilersiňiz — [your-email@example.com] salgysy arkaly bize e-poçta iberiň.",
+        "cookies": "Kökiler",
+        "cookiesDesc": "Biz analiz üçin kökiler ulanýarys. Siz olary brauzeriňiziň sazlamalarynda dolandyryp bilersiňiz.",
+        "questions": "Soraglaryňyz bar bolsa, [your-email@example.com] salgysy arkaly bize ýazyň."
+    },
+    "terms": {
+        "title": "Hyzmat Şertleri",
+        "lastUpdated": "Soňky Täzelenme: 4-nji Oktýabr, 2025",
+        "intro": "GelBileli-ni ulanmak bilen, siz bu şertlere razy bolýarsyňyz. Razy bolmasaňyz, saýty ulanmaň.",
+        "services": "Biziň Hyzmatlarymyz",
+        "servicesDesc": "Biz mugt şahsylaşdyrylan matematika synaglaryny we okuw gurallaryny berýäris. Mazmun diňe bilim maksatly ulanylmaly — netijelere kepillik ýok.",
+        "rules": "Ulanyjy Düzgünleri",
+        "rule1": "Synaglarda dogruçyl boluň (aldamazlyk).",
+        "rule2": "Biziň mazmunymyzy rugsatsyz göçürmäň ýa-da paýlaşmaň.",
+        "rule3": "Saýty ulanmak üçin 13+ ýaşynda bolmaly (ýa-da ene-ataňyzdan rugsat almaly).",
+        "rights": "Biziň Hukuklarymyz we Çäklendirmelerimiz",
+        "rightsDesc": "Saýtyň ähli mazmuny biziň eýeçiligimizdir. Gurallarymyzy ulanmakdan ýüze çykýan islendik mesele üçin jogapkärçilik çekmeýäris. Düzgün bozulmalary üçin elýeterliligi islendik wagtda ýatyryp bileris.",
+        "changes": "Üýtgeşmeler we Kanun",
+        "changesDesc": "Biz bu şertleri täzeläp bileris — yzyna serediň. [siziň ýurduňyz/şäheriňiz] kanunlary bilen dolandyrylýar.",
+        "questions": "Soraglaryňyz barmy? [your-email@example.com] salgysyna e-poçta iberiň."
+    },
+    "results": {
+        "title": "Synag Netijeleri - GelBileli",
+        "backButton": "← Baş Sahypa Dolanyp Gel",
+        "header": "Siziň Synag Netijeleriňiz",
+        "subtitle": "Baha bermegi tamamlandygyňyz üçin gowy iş! Ine, nädip ýerine ýetirendigiňiz.",
+        "welcome": "Hoş geldiňiz!",
+        "scoreDetails": "0 / 0 dogry",
+        "scoreMessage": "Gowulanmak üçin dowamly gaýtalaň!",
+        "breakdownTitle": "Mowzuklar Boýunça Bölünşik",
+        "breakdownIntro": "Kiçi mowzuklar boýunça ýerine ýetirişiňizi görüň",
+        "anotherTest": "Başga Synagdan Geç"
+    },
+    "test": {
+        "title": "Uýgunlaşýan Matematika Synagy",
+        "backButton": "← Baş Sahypa Dolanyp Gel",
+        "progressPrefix": "Sorag",
+        "hideTimer": "Taýmeri Gizle",
+        "loading": "Sorag ýüklenýär...",
+        "previous": "← Öňki",
+        "next": "Indiki →"
+    }
+}

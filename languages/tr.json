@@ -1,0 +1,236 @@
+{
+    "global": {
+        "title": "GelBileli",
+        "brand": "GelBileli",
+        "tagline": "Kişiselleştirilmiş matematik testleri ve öğrenme"
+    },
+    "nav": {
+        "features": "Özellikler",
+        "how": "Nasıl Çalışır",
+        "curriculum": "Müfredat",
+        "plans": "Planlar"
+    },
+    "hero": {
+        "title": "GelBileli'ye Hoş Geldiniz",
+        "lead1": "Matematik bazen zor gelebilir. Çok çalışırsın ama sonra bazı kısımları unutursun. Hepimiz yaparız — normal! O küçük boşluklar testlerde veya gerçek problemlerde seni tökezletebilir.",
+        "lead2": "Bu yüzden GelBileli'yi yaptım. Basit, arkadaşça testler kullanarak zayıf noktalarını hızlıca bul. Ne pratik yapacağını net ipuçları al, zaman kazan ve özgüven kazan. Birlikte o boşlukları dolduralım ve matematiği kolaylaştıralım."
+    },
+    "features": {
+        "title": "Neden GelBileli?",
+        "adaptive": "Uyarlanabilir Testler",
+        "adaptiveDesc": "Her test beceri düzeyine göre ayarlanır ve doğru değerlendirme sağlar.",
+        "insights": "İçgörüler ve Analizler",
+        "insightsDesc": "Hangi alanlarda mükemmel olduğunu ve nerede iyileşmen gerektiğini tam olarak bil.",
+        "guided": "Rehberli Öğrenme",
+        "guidedDesc": "Sonuçlarına dayalı önerilen egzersizleri takip et."
+    },
+    "how": {
+        "title": "Nasıl Çalışır"
+    },
+    "steps": {
+        "1": {
+            "title": "İlk Testi Yap",
+            "desc": "Konu ve zorluğu seçerek becerilerinin temel değerlendirmesini al."
+        },
+        "2": {
+            "title": "Hatalarını Bil",
+            "desc": "Tam güçlü ve zayıf yönlerini belirleyen anında detaylı geri bildirim al."
+        },
+        "3": {
+            "title": "Öğren ve Pratik Yap",
+            "desc": "Zayıf alanları hedefleyen önerilen videoları izle ve özel egzersizleri tamamla."
+        },
+        "4": {
+            "title": "Yeniden Test Et ve İlerle",
+            "desc": "Aynı konular/zorlukta yeni test yaparak ilerlemeni takip et."
+        }
+    },
+    "cta": {
+        "start": "Ücretsiz Testine Şimdi Başla!"
+    },
+    "curriculum": {
+        "showButton": "Matematik Müfredatını Keşfet",
+        "title": "Tam GelBileli Müfredatı",
+        "intro": "Temel temellerden ileri kalkülüs'e kadar konuları keşfet. Herhangi bir konuya tıklayarak şimdi pratik soruları başlat!"
+    },
+    "subjects": {
+        "algebra1": {
+            "title": "Cebir I (9–10. Sınıflar)",
+            "subtitle": "Lise cebirinin temel yapı taşları.",
+            "topics": {
+                "expressions": "İfadeler, Denklemler, Eşitsizlikler",
+                "linear": "Doğrusal Denklemler ve Fonksiyonlar",
+                "slope": "Eğim, Kesmeler, Çizgi Grafikleri",
+                "systems": "Denklem Sistemleri: Yerine Koyma, Eleme",
+                "exponents": "Üsler ve Üstel Fonksiyonlar",
+                "polynomials": "Çokterimli: İşlemler ve Çarpanlara Ayırma",
+                "quadratics": "İkinci Derece Denklemler: Çarpanlara Ayırma, Tamamlama Kare, İkinci Derece Formül",
+                "rational": "Rasyonel İfadeler ve Denklemler",
+                "radical": "Kök İfadeler ve Denklemler",
+                "absolute": "Mutlak Değer Denklemleri ve Eşitsizlikler",
+                "sequences": "Sıralar: Aritmetik ve Geometrik (Giriş)"
+            }
+        },
+        "geometry": {
+            "title": "Geometri (9–10. Sınıflar)",
+            "subtitle": "Şekiller, uzamsal akıl yürütme ve ölçüm.",
+            "topics": {
+                "logic": "Mantık ve Akıl Yürütme, Kanıtlar",
+                "parallel": "Paralel ve Dikey Çizgiler",
+                "angles": "Açı İlişkileri",
+                "triangles": "Üçgenler: Örtüşme ve Benzerlik",
+                "pythagorean": "Pisagor Teoremi ve Mesafe Formülü",
+                "quadrilaterals": "Dörtyönlüler ve Çokgenler",
+                "circles": "Çemberler: Yaylar, Kirişler, Merkez ve İç Açı",
+                "perimeter": "Çevre, Alan, Hacim, Yüzey Alanı",
+                "transformations": "Dönüşümler: Kaydırma, Döndürme, Yansıma, Genişletme",
+                "coordinate": "Koordinat Geometri: Eğim, Orta Nokta, Mesafe",
+                "trig": "Dik Üçgenlerde Temel Trigonometri"
+            }
+        },
+        "algebra2": {
+            "title": "Cebir II / İleri Cebir (10–11. Sınıflar)",
+            "subtitle": "Yüksek matematik için cebir kavramlarını genişletme.",
+            "topics": {
+                "complex": "Karmaşık Sayılar: İşlemler, Kutupsal Form",
+                "polynomials": "İkinci, Kübik, Yüksek Dereceli Polinomlar",
+                "rational": "Rasyonel İfadeler ve Denklemler",
+                "radical": "Kök İfadeler ve Rasyonel Üsler",
+                "exponential": "Üstel ve Logaritmik Fonksiyonlar",
+                "sequences": "Sıralar ve Seriler: Aritmetik, Geometrik, Sigma Notasyonu",
+                "matrices": "Matrisler ve Determinantlar",
+                "probability": "Olasılık ve Kombinatorik: Permütasyonlar, Kombinasyonlar, Binom Teoremi",
+                "conics": "Konik Kesitler: Paraboller, Elipsler, Hiperboller, Çemberler",
+                "piecewise": "Parçalı Fonksiyonlar"
+            }
+        },
+        "precalc": {
+            "title": "Kalkülüs Öncesi: Trigonometri ve Fonksiyonlar",
+            "subtitle": "İleri matematik çalışması için temel konular.",
+            "topics": {
+                "sohcahtoa": "Trigonometri: SOHCAHTOA, Birim Çember",
+                "trigFunctions": "Trigonometrik Fonksiyonlar: sin, cos, tan, csc, sec, cot",
+                "identities": "Trigonometrik Kimlikler ve Denklemler",
+                "graphs": "Trigonometrik Fonksiyonların Grafikleri ve Dönüşümleri",
+                "functionNotation": "Fonksiyon Notasyonu, Alan, Aralık",
+                "inverse": "Ters Fonksiyonlar",
+                "polynomial": "Polinom, Rasyonel, Üstel, Logaritmik, Parçalı, Basamak Fonksiyonlar",
+                "parametric": "Parametrik Denklemler",
+                "vectors": "Vektörler: Büyüklük, Yön, İşlemler",
+                "coordinate": "İleri Koordinat Geometri",
+                "conics": "Konik Kesitler Detaylı"
+            }
+        },
+        "advanced": {
+            "title": "İleri Konular: Kalkülüs ve İstatistik",
+            "subtitle": "Üniversite düzeyinde kavramlar ve veri analizi.",
+            "topics": {
+                "limits": "Limitler ve Süreklilik",
+                "derivatives": "Türevler: Kurallar ve Uygulamalar",
+                "integrals": "İntegraller: Belirli ve Belirsiz, Eğri Altı Alan",
+                "theorem": "Kalkülüsün Temel Teoremi",
+                "differential": "Temel Diferansiyel Denklemler (Giriş)",
+                "series": "Seriler: Aritmetik, Geometrik, Sonsuz Seriler",
+                "data": "Veri Analizi: Ortalama, Medyan, Mod, Standart Sapma",
+                "probability": "Olasılık: Bağımsız ve Bağımlı Olaylar",
+                "binomial": "Binom Dağılımı",
+                "normal": "Normal Dağılım ve Z-Puanları",
+                "matrices": "Matrisler ve Lineer Dönüşümler"
+            }
+        }
+    },
+    "modal": {
+        "title": "Matematik Testine Başla",
+        "intro": "Detaylarını gir ve bir konu seçerek uyarlanabilir değerlendirmeye başla.",
+        "firstNameLabel": "Ad",
+        "lastNameLabel": "Soyad",
+        "topicLabel": "Matematik Alanı Seç",
+        "topicPlaceholder": "Konu Alanı Seç...",
+        "preAlgebraGroup": "Ön-Cebir (8. Sınıf)",
+        "preAlgebra1": "Ön-Cebir: Temeller",
+        "preAlgebra2": "Ön-Cebir: Sayılar ve Ondalıklar",
+        "preAlgebra3": "Ön-Cebir: Hızlar ve Oranlar",
+        "algebra1Group": "Cebir I (9-10. Sınıflar)",
+        "algebra1-1": "Cebir 1: Doğrusal Denklemler",
+        "algebra1-2": "Cebir 1: Fonksiyonlar ve Üsler",
+        "geometryGroup": "Geometri (9-10. Sınıflar)",
+        "geometry-1": "Geometri: Şekiller ve Kanıtlar",
+        "geometry-2": "Geometri: Ölçüm ve Dönüşümler",
+        "algebra2Group": "Cebir II / İleri (10-11. Sınıflar)",
+        "algebra2-1": "Cebir 2: İleri Denklemler",
+        "algebra2-2": "Cebir 2: Logaritmalar ve Karmaşık Sayılar",
+        "precalcGroup": "Kalkülüs Öncesi (11-12. Sınıflar)",
+        "precalc-1": "Kalkülüs Öncesi: Fonksiyonlar ve Limitler",
+        "precalc-2": "Kalkülüs Öncesi: Trigonometri ve Kalkülüs Giriş",
+        "startButton": "Testi Başlat"
+    },
+    "footer": {
+        "copyright": "© 2025 GelBileli • Tüm hakları saklıdır",
+        "privacy": "Gizlilik",
+        "terms": "Şartlar",
+        "contact": "İletişim"
+    },
+    "contact": {
+        "title": "İletişime Geçin",
+        "intro": "Matematik testleri hakkında soru veya yardıma mı ihtiyacınız var? Buradayız—24 saat içinde cevap veririz!",
+        "nameLabel": "Ad",
+        "emailLabel": "E-posta",
+        "messageLabel": "Mesaj",
+        "sendButton": "Mesaj Gönder",
+        "directEmail": "Doğrudan e-posta gönderin:",
+        "phoneLabel": "Telefon:",
+        "social": "[sosyal bağlantılar, ör. Twitter veya Instagram]'da bizi takip edin."
+    },
+    "privacy": {
+        "title": "Gizlilik Politikası",
+        "lastUpdated": "Son Güncelleme: 04 Ekim 2025",
+        "intro": "GelBileli'de gizliliğinize saygı duyuyoruz. Bu politika, matematik öğrenme platformumuzu kullanırken bilgilerinizi nasıl topladığımızı, kullandığımızı ve koruduğumuzu açıklar.",
+        "whatCollect": "Ne Topluyoruz",
+        "personalInfo": "Kişisel Bilgi: Ad, e-posta ve test yanıtları (kayıt formlarından).",
+        "usageData": "Kullanım Verileri: IP adresi, tarayıcı türü ve ziyaret edilen sayfalar (daha iyi site deneyimi için çerezler aracılığıyla).",
+        "howUse": "Nasıl Kullanıyoruz",
+        "useDesc": "Kişiselleştirilmiş testler oluşturmak, ilerlemeyi takip etmek ve yararlı güncellemeler göndermek için verilerinizi kullanıyoruz. Üçüncü taraflarla satmıyor veya paylaşmıyoruz, güvenli işlemciler (ör. e-posta hizmetleri) hariç.",
+        "security": "Güvenlik ve Haklarınız",
+        "securityDesc": "Verileriniz güvenli saklanır. İstediğiniz zaman erişebilir, güncelleyebilir veya silebilirsiniz—[your-email@example.com]'a e-posta atın.",
+        "cookies": "Çerezler",
+        "cookiesDesc": "Analitik için çerezler kullanıyoruz. Tarayıcı ayarlarınızdan yönetebilirsiniz.",
+        "questions": "Sorularınız varsa [your-email@example.com]'a ulaşın."
+    },
+    "terms": {
+        "title": "Hizmet Şartları",
+        "lastUpdated": "Son Güncelleme: 04 Ekim 2025",
+        "intro": "GelBileli'yi kullanarak bu şartlara razı olursunuz. Razı değilseniz lütfen siteyi kullanmayın.",
+        "services": "Hizmetlerimiz",
+        "servicesDesc": "Ücretsiz kişiselleştirilmiş matematik testleri ve öğrenme araçları sağlıyoruz. İçerik sadece eğitim amaçlı—sonuçlar için garanti yok.",
+        "rules": "Kullanıcı Kuralları",
+        "rule1": "Testlerde dürüst olun (hile yok).",
+        "rule2": "İzinsiz içeriği kopyalamayın veya paylaşmayın.",
+        "rule3": "Siteyi kullanmak için 13+ yaşında olmalısınız (veya ebeveyn onayı).",
+        "rights": "Haklarımız ve Sınırlamalar",
+        "rightsDesc": "Site içeriğinin sahibiyiz. Araçlarımızı kullanmaktan kaynaklanan sorunlardan sorumlu değiliz. Kural ihlali durumunda erişimi sonlandırabiliriz.",
+        "changes": "Değişiklikler ve Hukuk",
+        "changesDesc": "Bu şartları güncelleyebiliriz—kontrol edin. [ülke/eyalet] yasalarına tabidir.",
+        "questions": "Sorular? [your-email@example.com]'a e-posta atın."
+    },
+    "results": {
+        "title": "Test Sonuçları - GelBileli",
+        "backButton": "← Ana Sayfaya Dön",
+        "header": "Test Sonuçlarınız",
+        "subtitle": "Değerlendirmeyi tamamladığınız için tebrikler! İşte performansınız.",
+        "welcome": "Hoş geldiniz geri!",
+        "scoreDetails": "0 / 0 doğru",
+        "scoreMessage": "İyileşmek için pratik yapmaya devam edin!",
+        "breakdownTitle": "Konu Analizi",
+        "breakdownIntro": "Seçtiğiniz konudaki alt konuları performansınıza göre görün.",
+        "anotherTest": "Başka Bir Test Yap"
+    },
+    "test": {
+        "title": "Uyarlanabilir Matematik Testi",
+        "backButton": "← Ana Sayfaya Dön",
+        "progressPrefix": "Soru",
+        "hideTimer": "Zamanlayıcıyı Gizle",
+        "loading": "Soru yükleniyor...",
+        "previous": "← Önceki",
+        "next": "Sonraki →"
+    }
+}
