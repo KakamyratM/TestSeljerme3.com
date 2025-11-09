@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Update DOM for user and overall
     document.getElementById('userFullName').textContent = `${userName} ${userSurname}`;
     document.getElementById('overallPercentage').textContent = `${overallPercentage}%`;
-    document.getElementById('scoreDetails').textContent = `${totalCorrect} / ${totalQuestions} correct`;
+    document.getElementById('scoreDetails').textContent = `${totalCorrect} / ${totalQuestions}`;
     document.getElementById('scoreMessage').textContent = isTimeout ? 'Time ran out! Review and try again.' : scoreMessage;
     document.getElementById('selectedTopic').textContent = displayTopic;
 
@@ -116,4 +116,5 @@ document.addEventListener('DOMContentLoaded', () => {
         if (percentage >= 60) return 'Good effort. Focus on the weak areas.';
         return 'Room for improvement. Review the subtopics below.';
     }
+
 });
